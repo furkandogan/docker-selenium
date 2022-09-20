@@ -172,14 +172,14 @@ RUN echo "${UBUNTU_FLAVOR}" > UBUNTU_FLAVOR \
 #=================
 # Selenium latest
 #=================
-ARG SEL_DIRECTORY="3.14"
-ENV SEL_VER="3.141.59"
+ARG SEL_DIRECTORY="4.4.0"
+ENV SEL_VER="4.4.0"
 
-RUN wget -nv "https://github.com/dosel/selenium/releases/download/selenium-3.141.59-patch-d47e74d6f2/selenium.jar" \
-  && ln -s "selenium.jar" \
-           "selenium-server-standalone-${SEL_VER}.jar" \
-  && ln -s "selenium.jar" \
-           "selenium-server-standalone-3.jar"
+RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-java-4.4.0.zip" \
+  && ln -s "selenium-java-4.4.0.jar" \
+           "selenium-server-${SEL_VER}.jar" \
+  && ln -s "selenium-java-4.4.0.jar" \
+           "selenium-server-4.4.0.jar"
 
 # TODO: Enable this again when Selenium 4.0 is released
 #RUN echo $SEL_VER
@@ -429,7 +429,7 @@ ENV FF_LANG="en-US" \
     FF_PLATFORM="linux-x86_64" \
     FF_INNER_PATH="firefox/releases"
 
-ARG FF_VER="105.0"
+ARG FF_VER="88.0.1"
 
 ENV FF_COMP="firefox-${FF_VER}.tar.bz2"
 ENV FF_URL="${FF_BASE_URL}/${FF_INNER_PATH}/${FF_VER}/${FF_PLATFORM}/${FF_LANG}/${FF_COMP}"
@@ -447,7 +447,7 @@ LABEL selenium_firefox_version "${FF_VER}"
 #============
 # GeckoDriver
 #============
-ARG GECKOD_VER="0.31.0"
+ARG GECKOD_VER="0.29.1"
 ENV GECKOD_URL="https://github.com/mozilla/geckodriver/releases/download"
 RUN wget --no-verbose -O geckodriver.tar.gz \
      "${GECKOD_URL}/v${GECKOD_VER}/geckodriver-v${GECKOD_VER}-linux64.tar.gz" \
@@ -466,7 +466,7 @@ COPY bin/fail /usr/bin/
 #===============
 # TODO: Use Google fingerprint to verify downloads
 #  https://www.google.de/linuxrepositories/
-ARG EXPECTED_CHROME_VERSION="105.0.5195.52"
+ARG EXPECTED_CHROME_VERSION="91.0.4472.77"
 ENV CHROME_URL="https://dl.google.com/linux/direct" \
     CHROME_BASE_DEB_PATH="/home/seluser/chrome-deb/google-chrome" \
     GREP_ONLY_NUMS_VER="[0-9.]{2,20}"
