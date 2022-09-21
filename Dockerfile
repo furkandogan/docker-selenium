@@ -342,12 +342,12 @@ USER seluser
 ENV NOVNC_SHA="463c39e4af98ec4106b87bbea17e1605aa4c6180" \
     WEBSOCKIFY_SHA="71d55fcaa8fff045048b08d3502a19cfeefec19e"
 RUN  wget -nv -O noVNC.zip \
-       "https://github.com/novnc/noVNC/zipball/${NOVNC_SHA}.zip" \
+       "https://github.com/novnc/noVNC/zipball/${NOVNC_SHA}" \
   && unzip -x noVNC.zip \
   && mv noVNC-${NOVNC_SHA} noVNC \
   && rm noVNC.zip \
   && wget -nv -O websockify.zip \
-      "https://github.com/novnc/websockify/zipball/${WEBSOCKIFY_SHA}.zip" \
+      "https://github.com/novnc/websockify/zipball/${WEBSOCKIFY_SHA}" \
   && unzip -x websockify.zip \
   && rm websockify.zip \
   && mv websockify-${WEBSOCKIFY_SHA} ./noVNC/utils/websockify
