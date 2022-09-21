@@ -350,7 +350,7 @@ RUN  wget -nv -O noVNC.zip \
       "https://github.com/novnc/websockify/zipball/${WEBSOCKIFY_SHA}" \
   && unzip -x websockify.zip \
   && rm websockify.zip \
-  && mv websockify-${WEBSOCKIFY_SHA} ./noVNC/utils/websockify
+  && mv novnc-websockify-71d55fc ./noVNC/utils/websockify
 
 #=============================
 # sudo by default from now on
