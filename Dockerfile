@@ -344,7 +344,7 @@ ENV NOVNC_SHA="463c39e4af98ec4106b87bbea17e1605aa4c6180" \
 RUN  wget -nv -O noVNC.zip \
        "https://github.com/novnc/noVNC/zipball/${NOVNC_SHA}" \
   && unzip -x noVNC.zip \
-  && mv noVNC-${NOVNC_SHA} noVNC \
+  && mv novnc-noVNC-463c39e noVNC \
   && rm noVNC.zip \
   && wget -nv -O websockify.zip \
       "https://github.com/novnc/websockify/zipball/${WEBSOCKIFY_SHA}" \
