@@ -28,6 +28,6 @@ Given docker.io currently allows to push the same tag image twice this represent
 
     # e.g. sha256 for some specific tag
     export SHA=<<Please see CHANGELOG.md>>
-    docker pull elgalu/selenium@sha256:${SHA}
+    docker pull furkandogan/selenium@sha256:${SHA}
 
 You can find all digests sha256 and image ids per tag in the [CHANGELOG](./CHANGELOG.md) so as of now you just need to trust the sha256 in the CHANGELOG. Bullet proof is to fork this project and build the images yourself if security is a big concern.

@@ -4,8 +4,8 @@
 #
 # To overwrite the build args use:
 #  docker build ... --build-arg UBUNTU_DATE=20171006
-ARG UBUNTU_FLAVOR=xenial
-ARG UBUNTU_DATE=20220420
+ARG UBUNTU_FLAVOR=focal
+ARG UBUNTU_DATE=20220531
 #== Ubuntu xenial is 16.04, i.e. FROM ubuntu:16.04
 # Find latest images at https://hub.docker.com/r/library/ubuntu/
 FROM ubuntu:${UBUNTU_FLAVOR}-${UBUNTU_DATE}
@@ -174,11 +174,9 @@ RUN echo "${UBUNTU_FLAVOR}" > UBUNTU_FLAVOR \
 ARG SEL_DIRECTORY="4.4.0"
 ENV SEL_VER="4.4.0"
 
-RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-java-4.4.0.zip" \
-  && ln -s "selenium-java-4.4.0.zip" \
-           "selenium-server-${SEL_VER}.jar" \
-  && ln -s "selenium-java-4.4.0.zip" \
-           "selenium-server-4.4.0.jar"
+RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar" \
+  && ln -s "selenium-server-4.4.0.jar" \
+           "selenium-server-${SEL_VER}.jar"
 
 # TODO: Enable this again when Selenium 4.0 is released
 #RUN echo $SEL_VER
@@ -219,12 +217,12 @@ USER root
 COPY test/requirements.txt /test/
 RUN apt -qqy update \
   && apt -qqy --no-install-recommends install \
-    python3 \
+    python3.6 \
     python3-pip \
     python3-dev \
     python3-openssl \
     libssl-dev libffi-dev \
-  && pip3 install --no-cache --upgrade pip==9.0.3 \
+  && pip3 install --no-cache --upgrade pip==22.2.2 \
   && pip3 install --no-cache setuptools \
   && pip3 install --no-cache numpy \
   && pip3 install --no-cache --requirement /test/requirements.txt \
@@ -347,7 +345,7 @@ USER seluser
 ENV NOVNC_SHA="9223e8f2d1c207fb74cb4b8cc243e59d84f9e2f6" \
     WEBSOCKIFY_SHA="cb1508fa495bea4b333173705772c1997559ae4b"
 RUN  wget -nv -O noVNC.zip \
-       "https://github.com/elgalu/noVNC/archive/${NOVNC_SHA}.zip" \
+       "https://github.com/novnc/noVNC/archive/${NOVNC_SHA}.zip" \
   && unzip -x noVNC.zip \
   && mv noVNC-${NOVNC_SHA} noVNC \
   && rm noVNC.zip \
@@ -507,7 +505,7 @@ USER seluser
 # Chrome webdriver
 #==================
 # How to get cpu arch dynamically: $(lscpu | grep Architecture | sed "s/^.*_//")
-ARG CHROME_DRIVER_VERSION="91.0.4472.19"
+ARG CHROME_DRIVER_VERSION="105.0.5195.52"
 ENV CHROME_DRIVER_BASE="chromedriver.storage.googleapis.com" \
     CPU_ARCH="64"
 ENV CHROME_DRIVER_FILE="chromedriver_linux${CPU_ARCH}.zip"
@@ -676,7 +674,7 @@ ENV DEFAULT_SELENIUM_HUB_PORT="24444" \
 # GA_API_VERSION
 #   All Google Analytics related, see LICENSE.md & Analytics.md for more info
 ENV FIREFOX_VERSION="${FF_VER}" \
-  USE_SELENIUM="3" \
+  USE_SELENIUM="4.4.0" \
   CHROME_FLAVOR="stable" \
   DEBUG="false" \
   PICK_ALL_RANDOM_PORTS="false" \

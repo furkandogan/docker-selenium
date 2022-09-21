@@ -10,7 +10,7 @@ version: '3'
 
 services:
   hub:
-    image: elgalu/selenium
+    image: furkandogan/selenium
     ports:
       - 4444:4444
     volumes:
@@ -24,7 +24,7 @@ services:
       - FIREFOX=false
 
   chrome:
-    image: elgalu/selenium
+    image: furkandogan/selenium
     depends_on:
       - hub
     ports:
@@ -50,7 +50,7 @@ services:
       - FIREFOX=false
 
   firefox:
-    image: elgalu/selenium
+    image: furkandogan/selenium
     depends_on:
       - hub
     ports:

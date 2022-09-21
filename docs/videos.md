@@ -12,7 +12,7 @@ Run a new grid
 
     docker run --rm --name=grid -p 4444:24444 -p 5920:25900 \
       --shm-size=2g -e VNC_PASSWORD=hola \
-      -e VIDEO=true elgalu/selenium
+      -e VIDEO=true furkandogan/selenium
 
 ### Wait
 Wait for the grid to start
@@ -55,7 +55,7 @@ If you want to additionaly record audio with the video use this
     docker run --rm --name=grid -p 4444:24444 -p 5920:25900 \
       --shm-size=2g -e VNC_PASSWORD=hola \
       -e VIDEO=true \
-      -e AUDIO=true elgalu/selenium
+      -e AUDIO=true furkandogan/selenium
 
 ### Start
 Start and stop on-demand

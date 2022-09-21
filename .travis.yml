@@ -10,7 +10,7 @@ python:
 sudo: required
 
 os: linux
-dist: xenial
+dist: focal
 
 services:
   - docker

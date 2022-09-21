@@ -15,7 +15,7 @@ ifeq ($(OS),Windows_NT)
 $(error Windows is not currently supported)
 endif
 
-export GIT_BASE_URL ?= https://raw.githubusercontent.com/elgalu/docker-selenium
+export GIT_BASE_URL ?= https://raw.githubusercontent.com/furkandogan/docker-selenium
 export GIT_TAG_OR_BRANCH ?= latest
 
 UNAME_S := $(shell uname -s)
@@ -102,7 +102,7 @@ pull:
 	@# Only pull for end users, not CI servers or repo owners
 	@if [ "${TESTING_MAKE}" != "true" ]; then \
 	  echo "Pulling latest version of docker-selenium..." ; \
-	  docker pull elgalu/selenium:${DOCKER_SELENIUM_TAG} ; \
+	  docker pull furkandogan/selenium:${DOCKER_SELENIUM_TAG} ; \
 	fi
 
 warn_vncviewer:

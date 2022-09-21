@@ -1,4 +1,4 @@
-# selenium-test [![Build Status](https://travis-ci.org/elgalu/selenium-test.svg?branch=master)](https://travis-ci.org/elgalu/selenium-test)
+# selenium-test [![Build Status](https://travis-ci.org/furkandogan/selenium-test.svg?branch=master)](https://travis-ci.org/furkandogan/selenium-test)
 
 Hello world selenium test.
 
@@ -11,7 +11,7 @@ Add `sudo` only if you get permission denied.
 
 It needs a selenium server, for example [docker-selenium][]
 
-    docker run -d --name=myselenium elgalu/selenium:latest
+    docker run -d --name=myselenium furkandogan/selenium:latest
     docker exec myselenium wait_all_done 30s
     export SELENIUM_HUB_HOST=$(docker inspect -f='{{.NetworkSettings.IPAddress}}' myselenium)
     export SELENIUM_HUB_PORT=24444

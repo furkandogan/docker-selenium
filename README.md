@@ -1,6 +1,3 @@
-# [NOT MAINTAINED] Please use <https://github.com/SeleniumHQ/docker-selenium>
-
-
 <img id="header" width="700" src="./images/icons/logo_wide.jpg" />
 
 # Selenium in Docker with Chrome and Firefox
@@ -19,10 +16,8 @@
 * firefox stable [last 18 versions can be found here][2.47.1m]
 * fluxbox (openbox window manager can still be found [here](https://github.com/elgalu/docker-selenium/releases/tag/3.0.1c))
 
-Selenium 3  `docker run ... elgalu/selenium:latest`
+Selenium 3  `docker run ... furkandogan/selenium:latest`
 ![docker-selenium-grid](./images/grid3_console.png)
-
-Selenium 2  `docker run ... elgalu/selenium:2` **no longer maintained**
 
 ### Purpose
 The purpose of this project is to have [Selenium][] running as simple and as fast as possible.
@@ -128,7 +123,7 @@ If you want to limit yourself to this project, you still can. There are some way
         docker run -d --name=grid -p 4444:24444 -p 5900:25900 \
             -v /dev/shm:/dev/shm --privileged \
             -e MAX_INSTANCES=20 -e MAX_SESSIONS=20 \
-            elgalu/selenium
+            furkandogan/selenium
 
 The drawback is that all tests will run on the same desktop meaning the video recording will only capture the browser in the foreground but it's in the roadmap to make all this transparent, see issues [#78](https://github.com/elgalu/docker-selenium/issues/78) and [#77](https://github.com/elgalu/docker-selenium/issues/77).
 
@@ -146,12 +141,12 @@ or former:
 ### Screen size
 You can set a custom screen size at docker run time by providing `SCREEN_WIDTH` and `SCREEN_HEIGHT` environment variables:
 
-    docker pull elgalu/selenium
+    docker pull furkandogan/selenium
 
     docker run -d --name=grid -p 4444:24444 -p 5900:25900 \
       -v /dev/shm:/dev/shm --privileged \
       -e SCREEN_WIDTH=1920 -e SCREEN_HEIGHT=1480 \
-      elgalu/selenium
+      furkandogan/selenium
 
     docker exec grid wait_all_done 10s
 
@@ -162,7 +157,7 @@ You can control and modify the timezone on a container by using the [TZ](https:/
 
     docker run --rm -ti --name=grid -p 4444:24444 -p 5900:25900 \
         -e TZ="US/Pacific" \
-        -v /dev/shm:/dev/shm --privileged elgalu/selenium
+        -v /dev/shm:/dev/shm --privileged furkandogan/selenium
 
 Examples:
 
@@ -174,7 +169,7 @@ Examples:
     docker exec grid date
     #=> Fri May 20 10:04:58 ART 2016
 
-    docker run ... -e TZ="Europe/Berlin" ...
+    docker run ... -e TZ="Europe/Istanbul" ...
     docker exec grid date
     #=> Fri May 20 15:04:58 CEST 2016
 
@@ -227,7 +222,7 @@ You need to pass the environment variable `-e NOVNC=true` in order to start the 
 
     docker run --rm -ti --name=grid -p 4444:24444 -p 5900:25900 \
       -v /dev/shm:/dev/shm --privileged -p 6080:26080 -e NOVNC=true \
-      elgalu/selenium
+      furkandogan/selenium
 
 You can provide additional [NoVNC options](https://github.com/elgalu/noVNC/blob/dosel/app/ui.js#L156) such as `?view_only=false` to allow you to interact with the virtual desktop which now is read-only by default so you don't mess with the tests accidentally.
 
@@ -292,7 +287,7 @@ Host machine, terminal 2:
       -v /dev/shm:/dev/shm --privileged \
       -e SCREEN_WIDTH -e SCREEN_HEIGHT -e XE_DISP_NUM \
       -v /tmp/.X11-unix/X${XE_DISP_NUM}:/tmp/.X11-unix/X${XE_DISP_NUM} \
-      elgalu/selenium
+      furkandogan/selenium
 3
 Now when you run your tests instead of connecting. If docker run fails try `xhost +`
 
@@ -349,7 +344,7 @@ This command line is the same as for Chrome, remember that the selenium running 
 
     REPOSITORY  TAG              IMAGE ID      CREATED             SIZE
     selenium    latest           a13d4195fc1f  About an hour ago   2.927 GB
-    ubuntu      xenial-20160525  2fa927b5cdd3  4 weeks ago         122 MB
+    ubuntu      focal-20220531   2fa927b5cdd3  4 weeks ago         122 MB
 
 ### DNS
 
@@ -372,7 +367,7 @@ Full example using `--net=host` and `--pid=host` but for this to work in OSX you
 
     docker run -d --name=grid --net=host --pid=host \
       -v /dev/shm:/dev/shm --privileged -e SELENIUM_HUB_PORT=4444 \
-      elgalu/selenium
+      furkandogan/selenium
     docker exec grid wait_all_done 30s
     ./test/python_test.py
 
@@ -388,7 +383,7 @@ Full example using `--net=host` and `--pid=host` but for this to work in OSX you
 * [smaato](http://blog.smaato.com/automated-end-to-end-testing-with-protractor-docker-jenkins)
 * [Algolia](https://github.com/algolia/instantsearch.js/#functional-tests)
 * [Nvidia](https://twitter.com/nvidia)
-* And many more! Please ping @elgalu to add you here.
+* And many more! Please ping @furkandogan to add you here.
 
 ## Troubleshooting
 
@@ -437,12 +432,12 @@ See [SECURITY.md](./SECURITY.md)
 See [LICENSE.md](./LICENSE.md)
 
 <!-- links -->
-[2.47.1m]: https://github.com/elgalu/docker-selenium/releases/tag/2.47.1m
+[4.4.0]: https://github.com/furkandogan/docker-selenium/releases/tag/4.4.0
 [Selenium]: https://github.com/SeleniumHQ/selenium
 [sauce]: https://saucelabs.com/selenium/selenium-grid
 [BrowserStack]: https://www.browserstack.com/automate
 [LambdaTest]: https://www.lambdatest.com/selenium-automation
 [xvfb-electron]: http://electron.atom.io/docs/tutorial/testing-on-headless-ci
 [docker-compose.yml]: ./docker-compose.yml
-[releases]: https://github.com/elgalu/docker-selenium/releases/
+[releases]: https://github.com/furkandogan/docker-selenium/releases/
 [Zalenium]: https://github.com/zalando/zalenium

@@ -31,6 +31,6 @@ docker images selenium
 if [ "${TRAVIS_BUILD_NUMBER}" != "" ]; then
   # Let's push this image to re-use it in TravisCI stages
   # in order to speed up the build
-  docker tag selenium:latest elgalu/build_selenium:${TRAVIS_BUILD_NUMBER}
-  docker push elgalu/build_selenium:${TRAVIS_BUILD_NUMBER}
+  docker tag selenium:latest furkandogan/build_selenium:${TRAVIS_BUILD_NUMBER}
+  docker push furkandogan/build_selenium:${TRAVIS_BUILD_NUMBER}
 fi

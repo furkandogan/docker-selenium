@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-SELENIUM_JAR_PATH="/home/seluser/selenium-server-standalone-3.jar"
+SELENIUM_JAR_PATH="/home/seluser/selenium-server-4.4.0.jar"
 
 # Selenium 3 - Example:
 #=> 3.3.1
