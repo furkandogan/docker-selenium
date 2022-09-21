@@ -22,8 +22,7 @@ ARG UBUNTU_DATE
 RUN printf "\033[1;32mFROM ubuntu:${UBUNTU_FLAVOR}-${UBUNTU_DATE} \033[0m\n"
 
 # https://github.com/docker/docker/pull/25466#discussion-diff-74622923R677
-LABEL maintainer "Diego Molina <diemol@gmail.com>"
-LABEL maintainer "Leo Gallucci <elgalu3+dosel@gmail.com>"
+LABEL maintainer "Furkan Dogan <dgnfrkn@gmail.com>"
 
 # No interactive frontend during docker build
 ENV DEBIAN_FRONTEND=noninteractive \
@@ -174,17 +173,15 @@ RUN echo "${UBUNTU_FLAVOR}" > UBUNTU_FLAVOR \
 ARG SEL_DIRECTORY="4.4.0"
 ENV SEL_VER="4.4.0"
 
-RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar" \
-  && ln -s "selenium-server-4.4.0.jar" \
-           "selenium-server-${SEL_VER}.jar"
+RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar"
 
 # TODO: Enable this again when Selenium 4.0 is released
-#RUN echo $SEL_VER
-#RUN  export SELBASE="https://selenium-release.storage.googleapis.com" \
-#  && export SELPATH="${SEL_DIRECTORY}/selenium-server-standalone-${SEL_VER}.jar" \
-#  && wget -nv ${SELBASE}/${SELPATH} \
-#  && ln -s "selenium-server-standalone-${SEL_VER}.jar" \
-#           "selenium-server-standalone-3.jar"
+RUN echo $SEL_VER
+RUN  export SELBASE="https://selenium-release.storage.googleapis.com" \
+  && export SELPATH="${SEL_DIRECTORY}/selenium-server-standalone-${SEL_VER}.jar" \
+  && wget -nv ${SELBASE}/${SELPATH} \
+  && ln -s "selenium-server-${SEL_VER}.jar" \
+           "selenium-server.4.4.0.jar"
 
 LABEL selenium_version "${SEL_VER}"
 
@@ -217,7 +214,7 @@ USER root
 COPY test/requirements.txt /test/
 RUN apt -qqy update \
   && apt -qqy --no-install-recommends install \
-    python3.6 \
+    python3 \
     python3-pip \
     python3-dev \
     python3-openssl \
