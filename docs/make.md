@@ -51,7 +51,7 @@ When done, is convenient to shutdown all the containers.
     make down
 
 ## Update
-To update latest version of this docker image either `docker pull elgalu/selenium` or simply:
+To update latest version of this docker image either `docker pull furkandogan/selenium` or simply:
 
     make pull
 
@@ -60,7 +60,7 @@ But given the upgrades are destructive is better to git clone this repository an
 If you make changes to these config files locally git will advise how to merge latest changes and you will be safe of losing your customizations.
 
 ### Git setup
-    git clone https://github.com/elgalu/docker-selenium.git
+    git clone https://github.com/furkandogan/docker-selenium.git
 
 ### Git upgrades
     git pull

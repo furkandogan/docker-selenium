@@ -28,7 +28,7 @@ Is important to note `-e CHROME=false -e FIREFOX=false` which tells the docker i
     docker run -d --name=hub --net=seleniums \
       -e GRID=true -e CHROME=false -e FIREFOX=false \
       -e SELENIUM_HUB_PORT=4444 -p 4444:4444 -e VNC_START=false \
-      elgalu/selenium
+      furkandogan/selenium
 
     docker exec hub wait_all_done 30s
 
@@ -49,7 +49,7 @@ The placeholder `{{CONTAINER_IP}}` will be turned into the IP address of the con
       -e SELENIUM_HUB_PORT=4444 -e SELENIUM_HUB_HOST="hub.seleniums" \
       -e SELENIUM_NODE_HOST="{{CONTAINER_IP}}" \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ![docker-selenium-chrome-node](../images/chrome_grid_console.png)
 
@@ -59,7 +59,7 @@ The placeholder `{{CONTAINER_IP}}` will be turned into the IP address of the con
       -e SELENIUM_HUB_PORT=4444 -e SELENIUM_HUB_HOST="hub.seleniums" \
       -e SELENIUM_NODE_HOST="{{CONTAINER_IP}}" \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ### Firefox
 Firefox will also attach to the `seleniums` network interface.
@@ -70,7 +70,7 @@ Firefox will also attach to the `seleniums` network interface.
       -e SELENIUM_HUB_PORT=4444 -e SELENIUM_HUB_HOST="hub.seleniums" \
       -e SELENIUM_NODE_HOST="{{CONTAINER_IP}}" \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ![docker-selenium-firefox-node](../images/firefox_grid_console.png)
 
@@ -80,7 +80,7 @@ Firefox will also attach to the `seleniums` network interface.
       -e SELENIUM_HUB_PORT=4444 -e SELENIUM_HUB_HOST="hub.seleniums" \
       -e SELENIUM_NODE_HOST="{{CONTAINER_IP}}" \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ### Wait
 Is convenient to wait for all the nodes to start correctly, also to catch errors before starting the tests in vane:
@@ -116,7 +116,7 @@ Legacy connection strategy specifying all ports and host addresses.
 
     docker run -d --name=hub -e GRID=true -e CHROME=false -e FIREFOX=false \
       -e SELENIUM_HUB_PORT=4444 -p 4444:4444 \
-      elgalu/selenium
+      furkandogan/selenium
 
     docker exec hub wait_all_done 30s
 
@@ -134,7 +134,7 @@ Port numbers are completely arbitrary, VNC port will be `5940` and Selenium node
       -e SELENIUM_HUB_PORT=4444 \
       -e SELENIUM_NODE_HOST="{{CONTAINER_IP}}" \
       --shm-size=1g \
-      elgalu/selenium && docker exec node_ch wait_all_done 30s
+      furkandogan/selenium && docker exec node_ch wait_all_done 30s
 
 The important part above is `-e GRID=false` which tells the container to be a node-only node, this this case with 2 browsers `-e CHROME=true -e FIREFOX=true` but could be just 1.
 
@@ -150,4 +150,4 @@ Port numbers are completely arbitrary, VNC port will be `5940` and Selenium node
       -e SELENIUM_HUB_PORT=4444 \
       -e SELENIUM_NODE_HOST="{{CONTAINER_IP}}" \
       --shm-size=1g \
-      elgalu/selenium && docker exec node_ff wait_all_done 30s
+      furkandogan/selenium && docker exec node_ff wait_all_done 30s

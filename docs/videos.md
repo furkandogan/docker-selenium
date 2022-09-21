@@ -5,7 +5,7 @@
 ### Pull
 Pull image
 
-    docker pull elgalu/selenium
+    docker pull furkandogan/selenium
 
 ### Run
 Run a new grid

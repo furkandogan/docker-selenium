@@ -2,7 +2,7 @@
 #   latest now points to 3 that points to 3.5 that points to 3.5.0 that points to 3.5.0-p1
 #   3.3 points to 3.3.1 that points to 3.3.1-p27
 #   and so on
-FROM elgalu/selenium:3.5
+FROM furkandogan/selenium:3.5
 
 USER root
 
@@ -10,11 +10,11 @@ USER root
 # 1. identify the git tag of the release that has that .deb version file
 #    e.g. 3.3.1-p22
 # 2. grab the .deb download url
-#    e.g. https://github.com/elgalu/....../google-chrome-stable_60.0.3112.101_amd64.deb
+#    e.g. https://github.com/furkandogan/....../google-chrome-stable_60.0.3112.101_amd64.deb
 RUN mkdir -p /home/seluser/chrome-deb \
   && cd /home/seluser/chrome-deb \
   && wget -O "older_chrome.deb" -nv \
-     "https://github.com/elgalu/docker-selenium/releases/download/3.3.1-p22/google-chrome-stable_60.0.3112.101_amd64.deb"
+     "https://github.com/furkandogan/docker-selenium/releases/download/3.3.1-p22/google-chrome-stable_60.0.3112.101_amd64.deb"
 
 # Installing the deb file will upgrade replace existing Chrome with the one we need
 RUN cd /home/seluser/chrome-deb \

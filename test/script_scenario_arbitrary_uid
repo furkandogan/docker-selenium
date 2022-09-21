@@ -20,7 +20,7 @@ export MOCK_SERVER_PORT=8280
 
 docker run -d -t --name=grid_mock -e MOCK_SERVER_PORT \
   -p $MOCK_SERVER_PORT:$MOCK_SERVER_PORT \
-  elgalu/google_adwords_mock
+  furkandogan/google_adwords_mock
 
 docker attach grid_mock &
 

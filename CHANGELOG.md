@@ -1,5 +1,5 @@
 ## 3.141.59-p59
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p58...3.141.59-p59 (2021-05-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p58...3.141.59-p59 (2021-05-26)
  + **Image tag details:**
     + Selenium version: 3.141.59 (82b03c358b)
     + Chrome stable:  91.0.4472.77
@@ -18,7 +18,7 @@
     + Digest: sha256:8b83d2a3bc0cf26d0aed929c25dd09ecbc5949a852a8f01081ff14d175b4619d
 
 ## 3.141.59-p58
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p57...3.141.59-p58 (2021-05-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p57...3.141.59-p58 (2021-05-26)
     + Bartek Florczak (1):
         * [2be09ef] Bump Chrome and Chromedriver to v91
  + **Image tag details:**
@@ -39,7 +39,7 @@
     + Digest: sha256:8384421cd80b4e1ce5fd7e3257147197078b42f7c3955e00b4fa11e99bcbfb42
 
 ## 3.141.59-p57
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p56...3.141.59-p57 (2021-04-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p56...3.141.59-p57 (2021-04-24)
     + Bartek Florczak (2):
         * [7032814] Bump chrome patch version, geckodriver minor version
         * [63d31e3] Bump Chrome patch version, bump FF to 88.0
@@ -67,7 +67,7 @@
     + Digest: sha256:0a46624fb65e5ff0ec167fe35bfc812499eef5fc2c556f430eef32d6d4c9bd65
 
 ## 3.141.59-p56
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p55...3.141.59-p56 (2021-03-23)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p55...3.141.59-p56 (2021-03-23)
     + Bartek Florczak (1):
         * [090182c] Bump FF to 87, Chome patch version bumped
  + **Image tag details:**
@@ -88,7 +88,7 @@
     + Digest: sha256:251ecadd62db1f4c9b600f16d7710489317aa485906ec52a2cf7dde6827cda1c
 
 ## 3.141.59-p55
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p54...3.141.59-p55 (2021-03-04)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p54...3.141.59-p55 (2021-03-04)
     + Bartek Florczak (1):
         * [7fb1e93] Bump chrome and chromedriver to v89
  + **Image tag details:**
@@ -109,7 +109,7 @@
     + Digest: sha256:570327b105435e62a454b247e85c75dbed2df6714215f83221f9deb7f1ce08f0
 
 ## 3.141.59-p54
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p53...3.141.59-p54 (2021-02-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p53...3.141.59-p54 (2021-02-03)
     + Bartek Florczak (1):
         * [875f044] Bump Chrome to 88.0.4324.146
  + **Image tag details:**
@@ -130,7 +130,7 @@
     + Digest: sha256:78ff7ad1877e3653df782544a7395369abfb3fd7d661b80818606440df03c953
 
 ## 3.141.59-p53
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p52...3.141.59-p53 (2021-01-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p52...3.141.59-p53 (2021-01-29)
     + Bartek Florczak (1):
         * [2b34be3] Update FF to 85.0
  + **Image tag details:**
@@ -151,13 +151,13 @@
     + Digest: sha256:813d2d8195a07987d5d408ab1ce2a95d6547b4ff6f171054936d8e4c288c7ca8
 
 ## 3.141.59-p52
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p51...3.141.59-p52 (2021-01-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p51...3.141.59-p52 (2021-01-26)
     + Bartek Florczak (3):
         * [6fd966f] Update Dockerfile
         * [08a5005] Bump FF to version 84
         * [92780d9] Bump Chrome and FF, bump drivers
     + Leo Gallucci (2):
-        * [a706506] Fixing https://github.com/elgalu/docker-selenium/commit/08a50054b2db1afcdba9feac3cc4e9cc7aaad950#commitcomment-45315663
+        * [a706506] Fixing https://github.com/furkandogan/docker-selenium/commit/08a50054b2db1afcdba9feac3cc4e9cc7aaad950#commitcomment-45315663
         * [d5ff3d1] Fixing build issue
  + **Image tag details:**
     + Selenium version: 3.141.59 (82b03c358b)
@@ -177,7 +177,7 @@
     + Digest: sha256:b0ccbb88c72cc36764a59bca45a3fbafb73349c0b2d1be9282d3080c92b0b219
 
 ## 3.141.59-p51
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p50...3.141.59-p51 (2020-11-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p50...3.141.59-p51 (2020-11-24)
     + Jérôme Gillard (1):
         * [f7632e0] Add Swarm documentation (#405)
  + **Image tag details:**
@@ -198,7 +198,7 @@
     + Digest: sha256:62c870c715d198080813af8e59c95bf30627f8f9699c24fc2490f51c930d971d
 
 ## 3.141.59-p50
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p49...3.141.59-p50 (2020-11-20)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p49...3.141.59-p50 (2020-11-20)
     + ewul (1):
         * [15d35f7] update chrome and driver to 87 (#403)
  + **Image tag details:**
@@ -219,7 +219,7 @@
     + Digest: sha256:d765b78abb3c53168bc0833a2d899aa74bd2149b28b1f6490119eae755088ca4
 
 ## 3.141.59-p49
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p48...3.141.59-p49 (2020-11-12)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p48...3.141.59-p49 (2020-11-12)
     + Bartek Florczak (1):
         * [ad0c483] Update Dockerfile (#401)
  + **Image tag details:**
@@ -240,7 +240,7 @@
     + Digest: sha256:ea0bf716218bad4428169be7d282a934032c83ffcc561fdc2266208f2b5036df
 
 ## 3.141.59-p48
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p47...3.141.59-p48 (2020-10-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p47...3.141.59-p48 (2020-10-22)
     + Bartek Florczak (2):
         * [981471a] Bump Chrome And FF patch version (#399)
         * [a3821c3] Bump Chrome to 86.0.4240.111 (#400)
@@ -262,7 +262,7 @@
     + Digest: sha256:8241eed1ccc8fbbd9f5ad466d456cc0af0cecedecd295d2e13f4422b343968d0
 
 ## 3.141.59-p47
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p46...3.141.59-p47 (2020-10-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p46...3.141.59-p47 (2020-10-13)
     + jahmed2345 (1):
         * [24b92b6] Added LambdaTest under cloud service providers (#398)
  + **Image tag details:**
@@ -283,7 +283,7 @@
     + Digest: sha256:eed7b68a808810d240cec654011421b031a53a0734f75fc5224a1e854abb2c9e
 
 ## 3.141.59-p46
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p45...3.141.59-p46 (2020-10-12)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p45...3.141.59-p46 (2020-10-12)
     + Leo Gallucci (2):
         * [86fb012] Remove GitAds (shutdown) [ci skip]
         * [d326470] Upgrade Chrome, FF
@@ -305,7 +305,7 @@
     + Digest: sha256:870e09318759b35555368360e56e3db8485b252100b52e9975b741a59ed3a0f7
 
 ## 3.141.59-p45
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p44...3.141.59-p45 (2020-08-28)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p44...3.141.59-p45 (2020-08-28)
     + Bartek Florczak (1):
         * [d22bd2e] Bump Chrome and ChromeDriver to 85, FF to 80 (#393)
     + Leo Gallucci (1):
@@ -328,7 +328,7 @@
     + Digest: sha256:591043885d4e9272a53c6966cbfe5bc816c5e868f64c0fbaa36b99d7d7198621
 
 ## 3.141.59-p44
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p43...3.141.59-p44 (2020-08-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p43...3.141.59-p44 (2020-08-11)
     + Chris McMahon (1):
         * [4904b06] update versions of Firefox and geckdriver to current (#392)
     + Leo Gallucci (1):
@@ -351,7 +351,7 @@
     + Digest: sha256:6e08f1b90e9e0b582230bf6aba11886a6f1c4d9e0bbce857e008f080744d662f
 
 ## 3.141.59-p43
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p42...3.141.59-p43 (2020-07-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p42...3.141.59-p43 (2020-07-16)
     + Leo Gallucci (2):
         * [54cf46b] GidAds in README.md [ci skip]
         * [0291057] Update GitAds in README.md [ci skip]
@@ -375,7 +375,7 @@
     + Digest: sha256:e6c649b8ac1b03b87f8c81f203744575f696575da3a739d90a79500c082c9c7a
 
 ## 3.141.59-p42
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p41...3.141.59-p42 (2020-05-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p41...3.141.59-p42 (2020-05-26)
     + Bartek Florczak (1):
         * [a277515] Update Chrome and ChromeDriver to version 83 (#384)
  + **Image tag details:**
@@ -396,7 +396,7 @@
     + Digest: sha256:f7ce5a066b6153fec33735563ba4ef0a30b2067ff7a599ba7c97c615654fce9d
 
 ## 3.141.59-p41
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p40...3.141.59-p41 (2020-05-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p40...3.141.59-p41 (2020-05-11)
     + Bartek Florczak (1):
         * [6723aae] Bump Chrome and FF (#383)
     + Leo Gallucci (2):
@@ -420,9 +420,9 @@
     + Digest: sha256:2024971430d157525ffc05edd08147c6603c92952cb5a027b5843e999ac7afac
 
 ## 3.141.59-p40
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p39...3.141.59-p40 (2020-05-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p39...3.141.59-p40 (2020-05-02)
     + Olivier Berger (1):
-        * [0cee743] Proposed fix for audio recording issue (https://github.com/elgalu/docker-selenium/issues/147#issuecomment-613765353) (#381)
+        * [0cee743] Proposed fix for audio recording issue (https://github.com/furkandogan/docker-selenium/issues/147#issuecomment-613765353) (#381)
  + **Image tag details:**
     + Selenium version: 3.141.59 (82b03c358b)
     + Chrome stable:  81.0.4044.129
@@ -441,7 +441,7 @@
     + Digest: sha256:aec5374afbf45972f1c1bd9c572feea7bbe3ec1911b34cd54a30083f1cbd455b
 
 ## 3.141.59-p39
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p38...3.141.59-p39 (2020-04-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p38...3.141.59-p39 (2020-04-29)
     + Bartek Florczak (1):
         * [bb8e8a0] Bump Chrome patch version (#380)
  + **Image tag details:**
@@ -462,7 +462,7 @@
     + Digest: sha256:a64df9a40108a634b3b277faba1f20a51097daf2cf0914141d3e81561f0f17c0
 
 ## 3.141.59-p38
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p37...3.141.59-p38 (2020-04-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p37...3.141.59-p38 (2020-04-08)
     + Leo Gallucci (1):
         * [9793157] @v0idp adds audio testing support (#377)
     + Serhii Khoma (1):
@@ -485,7 +485,7 @@
     + Digest: sha256:697372ae96b3c7efdc535f2d1098e0d10e841fb93fa9fd0ef3a38aa2fa624415
 
 ## 3.141.59-p37
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p36...3.141.59-p37 (2020-02-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p36...3.141.59-p37 (2020-02-14)
     + Leo Gallucci (2):
         * [c5843e8] Upgrade Chrome major version to 80
         * [594a6db] Upgrade Firefox from 72.0.2 to 73.0
@@ -507,7 +507,7 @@
     + Digest: sha256:e2c398fb704eb780fd175a8e50f651e775ef52f27df21fbd4c8d9012c56379c7
 
 ## 3.141.59-p36
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p35...3.141.59-p36 (2020-01-20)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p35...3.141.59-p36 (2020-01-20)
     + Leo Gallucci (1):
         * [f294087] Upgrade Firefox 72.0.2 and Chrome 79.0.3945.130
  + **Image tag details:**
@@ -528,7 +528,7 @@
     + Digest: sha256:3079078e8e4cd636f60e95fa4f0618411f04527a1384843b9ba88959fd373de8
 
 ## 3.141.59-p35
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p34...3.141.59-p35 (2020-01-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p34...3.141.59-p35 (2020-01-08)
     + Leo Gallucci (2):
         * [c1afdee] Upgrade Firefox from 71.0 to 72.0.1
         * [79745be] Upgrade Chrome patch level to 79.0.3945.117
@@ -550,7 +550,7 @@
     + Digest: sha256:3102a91b06a67c5f7d17e7bfd365700c02557758967190ad8d6aa13652b97d99
 
 ## 3.141.59-p34
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p33...3.141.59-p34 (2019-12-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p33...3.141.59-p34 (2019-12-16)
     + Sy (1):
         * [90a9c65] Bump chromedriver binary versions (#364)
  + **Image tag details:**
@@ -571,7 +571,7 @@
     + Digest: sha256:31a4484fa712436f4247a1219e89fae0857b1439a4922cec53ede8c9899f9546
 
 ## 3.141.59-p33
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p32...3.141.59-p33 (2019-12-12)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p32...3.141.59-p33 (2019-12-12)
     + Leo Gallucci (2):
         * [9a94795] Upgrade Chrome from 78 to 79
         * [3987e3d] Call for SPONSORS: https://github.com/sponsors/elgalu
@@ -593,7 +593,7 @@
     + Digest: sha256:0164e633cd54c5e5e9e639764d112a1c64fd4d3f882b1d3954cb2868ec6a5055
 
 ## 3.141.59-p32
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p31...3.141.59-p32 (2019-12-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p31...3.141.59-p32 (2019-12-10)
     + LAMY Julien (1):
         * [6641723] Add browsermob-proxy in run supervisor (#362)
  + **Image tag details:**
@@ -614,7 +614,7 @@
     + Digest: sha256:19bb683a39f770320d0556b19516e62919e25ea71aed031b557a2f14599e936b
 
 ## 3.141.59-p31
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p30...3.141.59-p31 (2019-12-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p30...3.141.59-p31 (2019-12-08)
     + Leo Gallucci (1):
         * [27f6358] Create FUNDING.yml
  + **Image tag details:**
@@ -635,7 +635,7 @@
     + Digest: sha256:33fa9efeee3eb6b7e27e63f405049f4663da6be77a02be84ae433fcfe6eef897
 
 ## 3.141.59-p30
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p29...3.141.59-p30 (2019-12-06)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p29...3.141.59-p30 (2019-12-06)
     + Leo Gallucci (6):
         * [1c69dac] Upgrade Firefox major to 71.0
         * [90b3418] Bump Zalenium Previous version test
@@ -663,7 +663,7 @@
     + Digest: sha256:a54b869d55e192945862ebae9717f7eb3b769dc9e619be8d745e92f8f280fdcc
 
 ## 3.141.59-p29
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p28...3.141.59-p29 (2019-11-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p28...3.141.59-p29 (2019-11-19)
     + Bartek Florczak (1):
         * [58d94d7] Bump Chromedriver and Chrome patch version to 78.0.3904.105 (#354)
     + Leo Gallucci (1):
@@ -686,7 +686,7 @@
     + Digest: sha256:496354c27c87c2bbce7632a13ac323f6fbf83b58c1f882d6321d7f5d5df45fbc
 
 ## 3.141.59-p28
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p27...3.141.59-p28 (2019-11-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p27...3.141.59-p28 (2019-11-08)
     + Leo Gallucci (1):
         * [55058a5] Upgrade Chrome patch level to 78.0.3904.97
  + **Image tag details:**
@@ -707,7 +707,7 @@
     + Digest: sha256:2139af565faac02b9c1f86ee6281f3be6afc8bc98d1b7b0f2eb748399f7b0727
 
 ## 3.141.59-p27
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p26...3.141.59-p27 (2019-11-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p26...3.141.59-p27 (2019-11-02)
     + Leo Gallucci (1):
         * [5319079] Upgrade Chrome and Firefox patch levels
  + **Image tag details:**
@@ -728,7 +728,7 @@
     + Digest: sha256:e4f2a827b25c2aafe36b479fb00e8ae26f267eedc8700b0b095b3fc5d39b0c80
 
 ## 3.141.59-p26
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p25...3.141.59-p26 (2019-10-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p25...3.141.59-p26 (2019-10-24)
     + Leo Gallucci (1):
         * [98a26f5] Upgrade Chrome, chromedriver, Firefox 70.0
  + **Image tag details:**
@@ -749,7 +749,7 @@
     + Digest: sha256:adb485d508f4ed7a983d65405ddf42e33a3444f4e93699c1f5ccbea531410330
 
 ## 3.141.59-p25
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p24...3.141.59-p25 (2019-10-12)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p24...3.141.59-p25 (2019-10-12)
     + Leo Gallucci (1):
         * [19578c0] Upgrade GeckoDriver from 0.25.0 to 0.26.0
  + **Image tag details:**
@@ -770,7 +770,7 @@
     + Digest: sha256:f8037e1686f166978699f29fa9257e153f4128d63f6729f21699c562e4c4a0e8
 
 ## 3.141.59-p24
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p23...3.141.59-p24 (2019-10-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p23...3.141.59-p24 (2019-10-11)
     + Leo Gallucci (1):
         * [a4be643] Upgrade Chrome 77.0.3865.120 and Firefox 69.0.3
  + **Image tag details:**
@@ -791,7 +791,7 @@
     + Digest: sha256:82c94a2153e2c5234116dd7e9399bec965ab822d1039ef64fc1a14afdbbaf817
 
 ## 3.141.59-p23
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p22...3.141.59-p23 (2019-10-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p22...3.141.59-p23 (2019-10-01)
     + Tobias Gruetzmacher (7):
         * [8371c88] Remove all the size comments
         * [2d9a724] Update to a newer Ubuntu xenial (20190904)
@@ -818,7 +818,7 @@
     + Digest: sha256:ee8eef304e97fb52748b273e33187aa177ec3e832da8ff45d6563510bd609946
 
 ## 3.141.59-p22
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p21...3.141.59-p22 (2019-09-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p21...3.141.59-p22 (2019-09-13)
     + Diego Molina (1):
         * [a2b9b8c] Bumping Chrome, ChromeDriver & GeckoDriver (#346)
  + **Image tag details:**
@@ -839,7 +839,7 @@
     + Digest: sha256:7b799508ce4bf7a256bf9ba192cf5ff9e38c72c83f18827d378f482bdb3e4da4
 
 ## 3.141.59-p21
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p20...3.141.59-p21 (2019-09-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p20...3.141.59-p21 (2019-09-07)
     + Diego Molina (1):
         * [fa5ed5b] Bump to Firefox 69.0 (#341)
  + **Image tag details:**
@@ -860,7 +860,7 @@
     + Digest: sha256:2027db531afaffa7ebc0046fd95b1f10b5d5c2559c4490faff733790ddcb905a
 
 ## 3.141.59-p20
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p19...3.141.59-p20 (2019-08-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p19...3.141.59-p20 (2019-08-22)
     + Bartek Florczak (1):
         * [657cfb8] Bump ChromeDriver to 76.0.3809.126 (#340)
  + **Image tag details:**
@@ -881,7 +881,7 @@
     + Digest: sha256:4f65d817a047ac7a83b65125a4399ec4eb0316f3f0064f32502a8216e10789cd
 
 ## 3.141.59-p19
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p18...3.141.59-p19 (2019-08-21)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p18...3.141.59-p19 (2019-08-21)
     + Leo Gallucci (1):
         * [1df5fc6] Upgrade Firefox patch level to 68.0.2
  + **Image tag details:**
@@ -902,7 +902,7 @@
     + Digest: sha256:7f69682c49efb338bd1d08ee0cd8b99f44c95352e1aff130a4502335cb92768c
 
 ## 3.141.59-p18
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p17...3.141.59-p18 (2019-08-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p17...3.141.59-p18 (2019-08-07)
     + Bartek Florczak (1):
         * [1d0b8d5] Bump Chrome to 76.0.3809.100 (#337)
  + **Image tag details:**
@@ -923,7 +923,7 @@
     + Digest: sha256:e16d1d300e5d752cf7a947280c9b6d2b49ca996d825d665edd4f3db33541494c
 
 ## 3.141.59-p17
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p16...3.141.59-p17 (2019-07-31)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p16...3.141.59-p17 (2019-07-31)
     + Bartek Florczak (1):
         * [499a644] Bump Chrome and Chromedriver to v76, FF to v68.0.1 (#335)
  + **Image tag details:**
@@ -944,7 +944,7 @@
     + Digest: sha256:492a5c83c9a1ee0a4dcb02853a1abd9fb7b46ef3316ba364de54042f5b77a601
 
 ## 3.141.59-p16
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p15...3.141.59-p16 (2019-07-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p15...3.141.59-p16 (2019-07-10)
     + Diego Molina (1):
         * [2319d5e] Upgrading Firefox and Chrome (#331)
  + **Image tag details:**
@@ -965,7 +965,7 @@
     + Digest: sha256:803b95d7ad1b9c22dba6e0256690ff32855620eaa4c8f7f53c3c964de53dcc34
 
 ## 3.141.59-p15
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p14...3.141.59-p15 (2019-06-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p14...3.141.59-p15 (2019-06-05)
     + Diego Molina (1):
         * [a13328c] Bump ChromeDriver 75.0.3770.8, Chrome 75.0.3770.80 (#325)
  + **Image tag details:**
@@ -986,7 +986,7 @@
     + Digest: sha256:b41c7fd824a1d3122652a6265f0591e66a5d147b07319bcc3088b8276d2b30da
 
 ## 3.141.59-p14
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p13...3.141.59-p14 (2019-05-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p13...3.141.59-p14 (2019-05-22)
     + Diego Molina (1):
         * [5cdb22f] Upgrading Firefox to 67.0 (#324)
  + **Image tag details:**
@@ -1007,7 +1007,7 @@
     + Digest: sha256:4917c4001ecaff11916c18bfb5bb9edbd27ecf5d33c3904f919b238fcb47f89f
 
 ## 3.141.59-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p12...3.141.59-p13 (2019-05-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p12...3.141.59-p13 (2019-05-16)
     + Bartek Florczak (1):
         * [e067398] Bump browsers' patch version (#321)
     + Diego Molina (1):
@@ -1030,7 +1030,7 @@
     + Digest: sha256:57d808050257f9fa350c9a9ebc0fed742ef7bc745e53a7ca168d36807a5fd83f
 
 ## 3.141.59-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p24...3.141.59-p12 (2019-05-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p24...3.141.59-p12 (2019-05-02)
     + Diego Molina (2):
         * [c910069] Now really using self built jar. (#320)
         * [5bc57c1] Moving patch level to 12 temporarily
@@ -1052,7 +1052,7 @@
     + Digest: sha256:270e8086f236b0f42db7c40987d30dfc62e411ca974ea46bfaa5c399299410b3
 
 ## 3.14.0-p24
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p23...3.14.0-p24 (2019-05-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p23...3.14.0-p24 (2019-05-01)
     + Diego Molina (1):
         * [70f3f33] Using patched Selenium jar for issue #296 (#319)
  + **Image tag details:**
@@ -1073,7 +1073,7 @@
     + Digest: sha256:15f0ee1322b1cb246e90b1f7e37e55c5edbaa469d4967e61f61b82dc1b780583
 
 ## 3.14.0-p23
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p22...3.14.0-p23 (2019-04-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p22...3.14.0-p23 (2019-04-24)
     + Bartek Florczak (1):
         * [34e4a88] Bump Chrome and ChromeDriver to 74 version (#317)
  + **Image tag details:**
@@ -1094,7 +1094,7 @@
     + Digest: sha256:c7f059cb8d8a99c990796b5865fd734d715e59e11a0de525c4406e832273388b
 
 ## 3.14.0-p22
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p21...3.14.0-p22 (2019-03-21)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p21...3.14.0-p22 (2019-03-21)
     + Diego Molina (1):
         * [dfa44e8] Bumping Firefox to 66.0 (#310)
  + **Image tag details:**
@@ -1115,7 +1115,7 @@
     + Digest: sha256:bd2fabd0956f61ebafdd372a8c725586821313c5fe8203b8735b37babc44a768
 
 ## 3.14.0-p21
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p20...3.14.0-p21 (2019-03-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p20...3.14.0-p21 (2019-03-14)
     + Leo Gallucci (1):
         * [0ae33f1] Upgrade Chrome major to 73.0.3683.75 (#309)
  + **Image tag details:**
@@ -1136,7 +1136,7 @@
     + Digest: sha256:4bf10dc69ca4aa95ab890a9418b2bc7820fa06b2e5b0d79b3052fb43054242cb
 
 ## 3.14.0-p20
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p19...3.14.0-p20 (2019-03-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p19...3.14.0-p20 (2019-03-02)
     + Leo Gallucci (1):
         * [f9c4287] Upgrade Chrome & Firefox patch levels
  + **Image tag details:**
@@ -1157,7 +1157,7 @@
     + Digest: sha256:d9b207f43e23d2387e6dc17f20ca288051cfc7af6bb9660a2a56b69e038bc4b1
 
 ## 3.14.0-p19
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p18...3.14.0-p19 (2019-02-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p18...3.14.0-p19 (2019-02-16)
     + Leo Gallucci (2):
         * [5367bc3] Fix LATEST_RELEASE.md [ci skip]
         * [d2a3861] Re-enable validation on releases
@@ -1179,7 +1179,7 @@
     + Digest: sha256:690abb59ee432df70ab406a33ab07649fef842e7c21c7f53a9c8ff1eeb110438
 
 ## 3.14.0-p18
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p17...3.14.0-p18 (2019-02-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p17...3.14.0-p18 (2019-02-16)
     + Diego Molina (16):
         * [97ca77c] Upgrading to 3.141.0
         * [d639d92] Upgrading Python bindings
@@ -1224,7 +1224,7 @@
     + Digest: sha256:6ccf8b0d414fb6fbc66ffc68f0d754276383a623f924e7812514560ff34c99f9
 
 ## 3.14.0-p17
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p16...3.14.0-p17 (2018-11-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p16...3.14.0-p17 (2018-11-10)
     + Diego Molina (1):
         * [db27d29] Upgrading Chrome to 70.0.3538.102 (#285)
  + **Image tag details:**
@@ -1245,7 +1245,7 @@
     + Digest: sha256:b8a130c157e1b55741c1ca2850584c419468eda5a1dd47d824a796934bdfa944
 
 ## 3.141.59-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p10...3.141.59-p11 (2019-02-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p10...3.141.59-p11 (2019-02-14)
     + Diego Molina (1):
         * [a1aa329] Upgrading Chrome and Firefox (#304)
  + **Image tag details:**
@@ -1266,7 +1266,7 @@
     + Digest: sha256:af5bd2caef23f318e23a4905f4274c45616c8a56552a8b0384fdf9dc2e74e1ca
 
 ## 3.141.59-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p9...3.141.59-p10 (2019-02-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p9...3.141.59-p10 (2019-02-02)
     + Diego Molina (1):
         * [8a8398f] Upgrading to ChromeDriver 2.46 (#301)
  + **Image tag details:**
@@ -1287,7 +1287,7 @@
     + Digest: sha256:5b6e40f52a1b92b3b34c4fca97b2640e78bbc4f2113033b6f18c886bdae85aa3
 
 ## 3.141.59-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p8...3.141.59-p9 (2019-01-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p8...3.141.59-p9 (2019-01-30)
     + Diego Molina (1):
         * [d8a35cc] Updating GeckoDriver, Chrome and Firefox (#300)
  + **Image tag details:**
@@ -1308,7 +1308,7 @@
     + Digest: sha256:e386ae793847c8555ab97176717d43b4d42eeaad95d43a186c215cc98b177667
 
 ## 3.141.59-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p7...3.141.59-p8 (2019-01-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p7...3.141.59-p8 (2019-01-10)
     + Diego Molina (1):
         * [4ca006f] Upgrading Firefox to 64.0.2
  + **Image tag details:**
@@ -1329,7 +1329,7 @@
     + Digest: sha256:e740a33a23a7eb021d5c5c93f0c610d0bd337acf548e76abd387d8db7d342a35
 
 ## 3.141.59-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p6...3.141.59-p7 (2019-01-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p6...3.141.59-p7 (2019-01-07)
     + Max Horváth (1):
         * [a005624] Fixed that setting the cursor visibility didn't work.
  + **Image tag details:**
@@ -1350,7 +1350,7 @@
     + Digest: sha256:8669a434cd546c0c8efff8736b70ddafd070b8768709fde9463726fc83cde75b
 
 ## 3.141.59-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p5...3.141.59-p6 (2018-12-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p5...3.141.59-p6 (2018-12-13)
     + Diego Molina (1):
         * [f9bc438] Upgrade Chrome to 71.0.3578.98
  + **Image tag details:**
@@ -1371,7 +1371,7 @@
     + Digest: sha256:33bc878615c4e96e7a1d6502f23043281c14deb61bb7fa23a24ecae465a6a41c
 
 ## 3.141.59-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p4...3.141.59-p5 (2018-12-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p4...3.141.59-p5 (2018-12-11)
     + Diego Molina (1):
         * [dcfc160] Upgrading to Firefox 64.0
  + **Image tag details:**
@@ -1392,7 +1392,7 @@
     + Digest: sha256:b300c47764564543210dcf6011dcabcf355dc2144865d21ede4939c782a013a3
 
 ## 3.141.59-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p3...3.141.59-p4 (2018-12-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p3...3.141.59-p4 (2018-12-11)
     + Diego Molina (1):
         * [e1452a0] Upgrading to ChromeDriver 2.45
  + **Image tag details:**
@@ -1413,7 +1413,7 @@
     + Digest: sha256:c3cc38af5c70b5cf0784eba0477ec86060a22adc2c0e4651dd4d3ad0c0fd0e6b
 
 ## 3.141.59-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p2...3.141.59-p3 (2018-12-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p2...3.141.59-p3 (2018-12-05)
     + Diego Molina (1):
         * [4149207] Upgrading Chrome to 71.0.3578.80
  + **Image tag details:**
@@ -1434,7 +1434,7 @@
     + Digest: sha256:b49eb59cf3c41fbc88dd87c446ebe5f39477b6385fac7f09d17aa0adf249a213
 
 ## 3.141.59-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p1...3.141.59-p2 (2018-11-20)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p1...3.141.59-p2 (2018-11-20)
     + Diego Molina (1):
         * [70a3712] Upgrading to ChromeDriver 2.44 (#287)
  + **Image tag details:**
@@ -1455,7 +1455,7 @@
     + Digest: sha256:3f8530dffb8d40438555ce1a627392bfb2420fd188f554308a53af302cf8a2e6
 
 ## 3.141.59-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.141.59-p0...3.141.59-p1 (2018-11-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.141.59-p0...3.141.59-p1 (2018-11-19)
     + Leo Gallucci (1):
         * [36b476a] Upgrade Firefox patch level to 63.0.3 (#286)
  + **Image tag details:**
@@ -1476,7 +1476,7 @@
     + Digest: sha256:85bf5c71a35c103ff8404c950e8064eb38915f6f7953debd219849bb8a47b9dd
 
 ## 3.141.59-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p17...3.141.59-p0 (2018-11-15)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p17...3.141.59-p0 (2018-11-15)
     + Diego Molina (7):
         * [97ca77c] Upgrading to 3.141.0
         * [d639d92] Upgrading Python bindings
@@ -1505,7 +1505,7 @@
     + Digest: sha256:ee0ea0ec9101631191af9988999ccc134a03635cff980de0675d28358b918c8d
 
 ## 3.14.0-p16
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p15...3.14.0-p16 (2018-11-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p15...3.14.0-p16 (2018-11-01)
     + Diego Molina (1):
         * [29d6c90] Upgrading Firefox to 63.0.1 (#283)
  + **Image tag details:**
@@ -1526,7 +1526,7 @@
     + Digest: sha256:8f22189f1cfc6ce5ae5ee1c95b36ba5c20e20902ff9fb023e63f9f0e00985079
 
 ## 3.14.0-p15
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p14...3.14.0-p15 (2018-10-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p14...3.14.0-p15 (2018-10-30)
     + Diego Molina (1):
         * [645d5b4] Fixing video recording so it works in all browsers. Fixes #263 (#282)
  + **Image tag details:**
@@ -1547,7 +1547,7 @@
     + Digest: sha256:008da9924f6905b7967c61bfdd3df36e20367b268ccd48e962109a1fa5119c55
 
 ## 3.14.0-p14
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p13...3.14.0-p14 (2018-10-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p13...3.14.0-p14 (2018-10-29)
     + Diego Molina (1):
         * [a2b76d0] Upgrade Chrome to 70.0.3538.77 (#281)
  + **Image tag details:**
@@ -1568,7 +1568,7 @@
     + Digest: sha256:2a35bd2d5fafd0256f392860bef9352616386f6c51052bdec3f8f80dc97f6c97
 
 ## 3.14.0-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p12...3.14.0-p13 (2018-10-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p12...3.14.0-p13 (2018-10-24)
     + Diego Molina (1):
         * [559bbec] Upgrading Firefox to 63.0 (#280)
  + **Image tag details:**
@@ -1589,7 +1589,7 @@
     + Digest: sha256:aeaa6da2cb92e125f47d006aad25f54cf89f907370a2956d29c261da353ffc40
 
 ## 3.14.0-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p11...3.14.0-p12 (2018-10-23)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p11...3.14.0-p12 (2018-10-23)
     + Diego Molina (1):
         * [c51fbbc] Upgrading base image to 20181005 (#279)
  + **Image tag details:**
@@ -1610,7 +1610,7 @@
     + Digest: sha256:d6c5894266641cc45a647d14d1df8d641e1d30edc1a6090084dde1c924104c57
 
 ## 3.14.0-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p10...3.14.0-p11 (2018-10-18)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p10...3.14.0-p11 (2018-10-18)
     + Diego Molina (1):
         * [a5b6006] Upgrade to Chrome 70.0.3538.67 + ChromeDriver 2.43 (#278)
  + **Image tag details:**
@@ -1631,7 +1631,7 @@
     + Digest: sha256:cfefeca5fe413f50a53553468e30737b8bcb04e828000cfeef2f4b9b8dabb760
 
 ## 3.14.0-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p9...3.14.0-p10 (2018-10-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p9...3.14.0-p10 (2018-10-13)
     + Leo Gallucci (1):
         * [0a34116] Bump Supervisor to 2018-09-28 837c159ae51f3b
  + **Image tag details:**
@@ -1652,7 +1652,7 @@
     + Digest: sha256:9e1e4b2ed3f3df7475cb049404309121f7acf1aabf80847188df0459a3a59003
 
 ## 3.14.0-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p8...3.14.0-p9 (2018-10-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p8...3.14.0-p9 (2018-10-05)
     + Diego Molina (1):
         * [255fff0] Upgrading GeckoDriver to 0.23.0
  + **Image tag details:**
@@ -1673,7 +1673,7 @@
     + Digest: sha256:3989980bf24db1514664aa6669b16030dd1c4f1157ee9961aed15bb6c9e7b4ee
 
 ## 3.14.0-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p7...3.14.0-p8 (2018-10-04)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p7...3.14.0-p8 (2018-10-04)
     + Diego Molina (1):
         * [6690ed1] Upgrade Firefox to 62.0.3 (#276)
  + **Image tag details:**
@@ -1694,7 +1694,7 @@
     + Digest: sha256:d726af87a6cce03e44f3078801772ef0ff6b23372d50d898c0db9f0c6db0e541
 
 ## 3.14.0-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p6...3.14.0-p7 (2018-09-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p6...3.14.0-p7 (2018-09-22)
     + Diego Molina (2):
         * [7d55277] Upgrading Firefox to 62.0.2
         * [f77164b] Updating Chrome to 69.0.3497.100
@@ -1716,7 +1716,7 @@
     + Digest: sha256:17f0c7923ab555e3e273db71d3da76cc714070e90868f63fa49d85ea2b3b7b81
 
 ## 3.14.0-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p5...3.14.0-p6 (2018-09-17)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p5...3.14.0-p6 (2018-09-17)
     + Leo Gallucci (1):
         * [d095d28] Upgrade GeckoDriver to 0.22.0
  + **Image tag details:**
@@ -1737,7 +1737,7 @@
     + Digest: sha256:27b7e8b02d4a7a7056094534f71029826ef0eceb4b66819e77143ecc5b1ed249
 
 ## 3.14.0-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p4...3.14.0-p5 (2018-09-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p4...3.14.0-p5 (2018-09-14)
     + Diego Molina (1):
         * [07f2bc5] Chrome to 69.0.3497.92 and ChromeDriver to 2.42 (#273)
  + **Image tag details:**
@@ -1758,7 +1758,7 @@
     + Digest: sha256:1433a58eb7917081e33cec95597709f54f4ec4b7171226d00d063776beff520b
 
 ## 3.14.0-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p3...3.14.0-p4 (2018-09-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p3...3.14.0-p4 (2018-09-08)
     + Diego Molina (1):
         * [ff1ac9d] Upgrade Firefox to 62.0 (#270)
  + **Image tag details:**
@@ -1779,7 +1779,7 @@
     + Digest: sha256:0ae64ff2a0e452c69be4c7e274e8706b5a12429b63d12cb7b92f214a03cbc468
 
 ## 3.14.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p2...3.14.0-p3 (2018-09-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p2...3.14.0-p3 (2018-09-05)
     + Diego Molina (1):
         * [dbd755c] Updating to Chrome 69.0.3497.81-1 (#268)
  + **Image tag details:**
@@ -1800,10 +1800,10 @@
     + Digest: sha256:6ba6bdf3d6068bd4dfc3e1db8326b754be261557eebc9b6aeecf8d9cff8d6d3f
 
 ## 3.14.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p1...3.14.0-p2 (2018-08-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p1...3.14.0-p2 (2018-08-30)
     + Leo Gallucci (2):
         * [69a1202] Kubectl typo in misc.md
-        * [a010b84] Merge branch 'master' of github.com:elgalu/docker-selenium
+        * [a010b84] Merge branch 'master' of github.com:furkandogan/docker-selenium
  + **Image tag details:**
     + Selenium version: 3.14.0 (aacccce0)
     + Chrome stable:  68.0.3440.106
@@ -1822,7 +1822,7 @@
     + Digest: sha256:50b2e936032ee25a7a16242e59919ba1696fb85e19c068bf461bc7e3e2a476ac
 
 ## 3.14.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.14.0-p0...3.14.0-p1 (2018-08-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.14.0-p0...3.14.0-p1 (2018-08-30)
     + Leo Gallucci (1):
         * [c15fbe1] Upgrade Ubuntu xenial date to 20180808
  + **Image tag details:**
@@ -1843,7 +1843,7 @@
     + Digest: sha256:64978d1d0815ccbb7a3cdc5efa14de01da12a42e941ceb4ce726cd8be46ac016
 
 ## 3.14.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.13.0-p4...3.14.0-p0 (2018-08-18)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.13.0-p4...3.14.0-p0 (2018-08-18)
     + Diego Molina (2):
         * [3a8e47d] Upgrading to 3.14.0
         * [d1c5f7c] Upgrading Python bindings to 3.14.0
@@ -1865,7 +1865,7 @@
     + Digest: sha256:edbacde03fa76325bdffbc8e731bb4f7ba479e6d4dac76836f626bffb28ea3e0
 
 ## 3.13.0-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.13.0-p3...3.13.0-p4 (2018-08-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.13.0-p3...3.13.0-p4 (2018-08-11)
     + Leo Gallucci (2):
         * [068f0ef] Upgrade Chrome patch level to 68.0.3440.106
         * [8ae14ea] Upgrade Firefox patch level to 61.0.2
@@ -1887,7 +1887,7 @@
     + Digest: sha256:4906cc074cc1ebb8db0a2da99ea9e0598c0190a3d047cd9f7a71266f94e7ec43
 
 ## 3.13.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.13.0-p2...3.13.0-p3 (2018-08-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.13.0-p2...3.13.0-p3 (2018-08-01)
     + Leo Gallucci (1):
         * [fdccba2] Upgrade Chrome patch level to 68.0.3440.84
  + **Image tag details:**
@@ -1908,7 +1908,7 @@
     + Digest: sha256:464cc5a7582d477adb3aabf15e73932c36791438e269ab318a09858b19e4984b
 
 ## 3.13.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.13.0-p1...3.13.0-p2 (2018-07-28)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.13.0-p1...3.13.0-p2 (2018-07-28)
     + Leo Gallucci (3):
         * [016aa64] Upgrade Ubuntu xenial date to 20180726
         * [e215cec] Upgrade Chromedriver from 2.40 to 2.41
@@ -1931,7 +1931,7 @@
     + Digest: sha256:6d48dedd200ba2fd058f0de808f900bf1f5294b3e0564501707d97fd01c526bc
 
 ## 3.13.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.13.0-p0...3.13.0-p1 (2018-07-17)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.13.0-p0...3.13.0-p1 (2018-07-17)
     + Tobias Gruetzmacher (1):
         * [e08a073] Encode with YUV420P, to be more compatible
  + **Image tag details:**
@@ -1952,7 +1952,7 @@
     + Digest: sha256:43b86b9fb66633d9ab82625ac5f1bc1f081540fbe38219464d44764da8340a6a
 
 ## 3.13.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p10...3.13.0-p0 (2018-07-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p10...3.13.0-p0 (2018-07-13)
     + Diego Molina (1):
         * [90d466c] Upgrade to Selenium 3.13.0 (#257)
  + **Image tag details:**
@@ -1973,7 +1973,7 @@
     + Digest: sha256:fffdc9020d73caec2ec6dd02de3f4b0aa3e3ae6e858661568d2d40f89be15fb8
 
 ## 3.12.0-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p9...3.12.0-p10 (2018-07-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p9...3.12.0-p10 (2018-07-07)
     + Leo Gallucci (1):
         * [cb7d4e2] Upgrade Firefox patch to 61.0.1 (#255)
  + **Image tag details:**
@@ -1994,7 +1994,7 @@
     + Digest: sha256:47488162a244c10027c78a23b0866e326299e11ddf8cdc220abf8ef6c2c195a5
 
 ## 3.12.0-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p8...3.12.0-p9 (2018-06-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p8...3.12.0-p9 (2018-06-26)
     + Leo Gallucci (1):
         * [bf8dc40] Upgrade Firefox minor from 60.0.2 to 61.0 (#254)
  + **Image tag details:**
@@ -2015,7 +2015,7 @@
     + Digest: sha256:1282e8521c6b6a26e3248bd00238906497939e25e8ae9b16c7b51ee4b87b27d6
 
 ## 3.12.0-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p7...3.12.0-p8 (2018-06-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p7...3.12.0-p8 (2018-06-26)
     + Leo Gallucci (1):
         * [b0464aa] Upgrade Chrome patch level to 67.0.3396.99
  + **Image tag details:**
@@ -2036,7 +2036,7 @@
     + Digest: sha256:4828a256072a8df5d59991ec670676491d50073e782c01be62aa1e082953dccb
 
 ## 3.12.0-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p6...3.12.0-p7 (2018-06-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p6...3.12.0-p7 (2018-06-16)
     + Leo Gallucci (1):
         * [2d7afb3] Upgrade GeckoDriver minor to 0.21.0
  + **Image tag details:**
@@ -2057,7 +2057,7 @@
     + Digest: sha256:07298d87f44fff630b02e99dc86530a34bd254dbeeba9a84c5e5f36152f8e680
 
 ## 3.12.0-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p5...3.12.0-p6 (2018-06-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p5...3.12.0-p6 (2018-06-14)
     + Diego Molina (1):
         * [a17b3be] Upgrade Ubuntu base image to 20180525 (#250)
  + **Image tag details:**
@@ -2078,7 +2078,7 @@
     + Digest: sha256:8eb2afcaed8b25d5de20e25694efb8f10d0e793bfd123588b979079912bed006
 
 ## 3.12.0-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p4...3.12.0-p5 (2018-06-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p4...3.12.0-p5 (2018-06-13)
     + Leo Gallucci (1):
         * [9edc177] Upgrade Chrome patch level to 67.0.3396.87
  + **Image tag details:**
@@ -2099,7 +2099,7 @@
     + Digest: sha256:c2e84b90c8849581f9d4d345285df08769613ade6f1ed3cf85a5d38ab594e31c
 
 ## 3.12.0-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p3...3.12.0-p4 (2018-06-09)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p3...3.12.0-p4 (2018-06-09)
     + Leo Gallucci (4):
         * [21f35d6] Upgrade Chromedriver minor to 2.40
         * [87d1fa1] Upgrade supervisor commit to 2018-06-01
@@ -2123,7 +2123,7 @@
     + Digest: sha256:e942d151d8e84669682a31512806f4d034f65b39f8f41098faf7b600d2a98081
 
 ## 3.12.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p2...3.12.0-p3 (2018-06-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p2...3.12.0-p3 (2018-06-07)
     + Leo Gallucci (1):
         * [095db55] Upgrade Firefox patch level to 60.0.2
  + **Image tag details:**
@@ -2144,7 +2144,7 @@
     + Digest: sha256:7c37b451aec87cfe0d08264d532bf095c213e31571ed335ff87cc986193fbfdb
 
 ## 3.12.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p1...3.12.0-p2 (2018-06-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p1...3.12.0-p2 (2018-06-07)
     + Leo Gallucci (1):
         * [cf8aa1b] Upgrade Chrome patch level to 67.0.3396.79
  + **Image tag details:**
@@ -2165,7 +2165,7 @@
     + Digest: sha256:b7adba6fb4e5ec08451486052120d52adaa65d019c31aa9653e08056b032f944
 
 ## 3.12.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.12.0-p0...3.12.0-p1 (2018-05-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.12.0-p0...3.12.0-p1 (2018-05-30)
     + Diego Molina (1):
         * [6f36828] Fix Zalenium job build
     + Leo Gallucci (2):
@@ -2189,7 +2189,7 @@
     + Digest: sha256:6449996450c11517d4938f4d7372615e45f5a443b40921de5da5b24b3a634abd
 
 ## 3.12.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p15...3.12.0-p0 (2018-05-17)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p15...3.12.0-p0 (2018-05-17)
     + Leo Gallucci (4):
         * [adc8ed4] Improve debugging support via -e DEBUG=true or DEBUG=bash
         * [393e49a] Upgrade Selenium (minor) from 3.11.0 to 3.12.0
@@ -2213,7 +2213,7 @@
     + Digest: sha256:bb4781588dea3148a7810422e7bc12b77d76b868359980f7844877f651bdbc59
 
 ## 3.11.0-p15
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p14...3.11.0-p15 (2018-05-17)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p14...3.11.0-p15 (2018-05-17)
     + Leo Gallucci (1):
         * [bdc5130] Upgrade Firefox patch level to 60.0.1 (#243)
  + **Image tag details:**
@@ -2234,7 +2234,7 @@
     + Digest: sha256:a0ec23adc2589d0b81e3213407b7aa3c677ec5aade46abab3925938fd66c381c
 
 ## 3.11.0-p14
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p13...3.11.0-p14 (2018-05-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p13...3.11.0-p14 (2018-05-16)
     + Leo Gallucci (1):
         * [22096aa] Upgrade Chrome patch level to 66.0.3359.181 (#242)
  + **Image tag details:**
@@ -2255,7 +2255,7 @@
     + Digest: sha256:7aaf920509116d4c31c77709febb24409d63bd0025fdda71882d3a047102b0f5
 
 ## 3.11.0-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p12...3.11.0-p13 (2018-05-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p12...3.11.0-p13 (2018-05-11)
     + Leo Gallucci (1):
         * [3f067cd] Upgrade Chrome patch level to 66.0.3359.170 (#240)
  + **Image tag details:**
@@ -2276,7 +2276,7 @@
     + Digest: sha256:7927028cb594839526acc79cdc6ec68ef6ab811da65907cf2bde466f7c830062
 
 ## 3.11.0-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p11...3.11.0-p12 (2018-05-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p11...3.11.0-p12 (2018-05-10)
     + Diego Molina (1):
         * [e7c75e7] Upgrading to FF 60.0 (#238)
  + **Image tag details:**
@@ -2297,7 +2297,7 @@
     + Digest: sha256:46ad251f1dada2ceb28333cd55c469cb9c9272613c7d4703aa7ee940549b05de
 
 ## 3.11.0-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p10...3.11.0-p11 (2018-05-04)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p10...3.11.0-p11 (2018-05-04)
     + Kristian Jensen (1):
         * [8aba49f] Fixing 236 (#237) via __CONTAINER_IP__
  + **Image tag details:**
@@ -2318,7 +2318,7 @@
     + Digest: sha256:3c80c72474a1fb1c3f5b022f8778b520ebf0ce96db4c08dbdf56d5e11b089d2a
 
 ## 3.11.0-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p9...3.11.0-p10 (2018-05-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p9...3.11.0-p10 (2018-05-03)
     + Diego Molina (1):
         * [890f7ea] Upgrade FF to 59.0.3
     + Leo Gallucci (2):
@@ -2342,7 +2342,7 @@
     + Digest: sha256:06d741c323b5657f5c67b32e6fa185964cb19ff8b8bc62f5977f59844d3d4f6e
 
 ## 3.11.0-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p8...3.11.0-p9 (2018-04-27)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p8...3.11.0-p9 (2018-04-27)
     + Leo Gallucci (1):
         * [f705234] Upgrade Chrome path level to 66.0.3359.139
  + **Image tag details:**
@@ -2363,7 +2363,7 @@
     + Digest: sha256:82e72a9eed5d4c14a68a2a5e1a9f3a56a33e14accb16e76a9ed51f53cc762b38
 
 ## 3.11.0-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p7...3.11.0-p8 (2018-04-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p7...3.11.0-p8 (2018-04-19)
     + Diego Molina (2):
         * [46d93ce] Update Chrome to 66.0.3359.117
         * [334a49c] Updating ChromeDriver to 2.38
@@ -2387,7 +2387,7 @@
     + Digest: sha256:22a130dd43e99ef1017d1662ce3e8d2c22082ec8621ab00c18e65651ad5ce599
 
 ## 3.11.0-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p6...3.11.0-p7 (2018-04-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p6...3.11.0-p7 (2018-04-13)
     + Leo Gallucci (1):
         * [e8d5483] Upgrade Ubuntu xenial-20180412 (date)
  + **Image tag details:**
@@ -2408,7 +2408,7 @@
     + Digest: sha256:0e55a9d352abc77d7d2092f7c5922e39b82f4a7bdc3ac006340a1d867012ef64
 
 ## 3.11.0-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p5...3.11.0-p6 (2018-04-09)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p5...3.11.0-p6 (2018-04-09)
     + Diego Molina (1):
         * [e083d54] Update GeckoDriver to v0.20.1
  + **Image tag details:**
@@ -2429,7 +2429,7 @@
     + Digest: sha256:9929059b55f11eee716bf82a9ee6e555ec401ae6a35c849fd9336bf37c12a2c7
 
 ## 3.11.0-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p4...3.11.0-p5 (2018-03-27)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p4...3.11.0-p5 (2018-03-27)
     + Leo Gallucci (1):
         * [9f5caa5] Upgrade Firefox patch level to 59.0.2
  + **Image tag details:**
@@ -2450,7 +2450,7 @@
     + Digest: sha256:bf176e115b02389f139f675d89f25d9e1842cf4cbff90e88205e98a849c0f487
 
 ## 3.11.0-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p3...3.11.0-p4 (2018-03-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p3...3.11.0-p4 (2018-03-22)
     + Leo Gallucci (1):
         * [0d95a8d] Upgrade Chrome patch level to 65.0.3325.181
  + **Image tag details:**
@@ -2471,7 +2471,7 @@
     + Digest: sha256:a71aec92f8491ddf36cc252b56215409ab5df9a6364f030bc269b6e384493771
 
 ## 3.11.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p2...3.11.0-p3 (2018-03-17)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p2...3.11.0-p3 (2018-03-17)
     + Leo Gallucci (1):
         * [db0f6e5] Upgrade Firefox patch to 59.0.1
  + **Image tag details:**
@@ -2492,7 +2492,7 @@
     + Digest: sha256:e0e77bafe4f68a70fc5a2f41d15d8fb340bc197b93ec65519899540aae018e0f
 
 ## 3.11.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p1...3.11.0-p2 (2018-03-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p1...3.11.0-p2 (2018-03-16)
     + Leo Gallucci (4):
         * [8e045e3] Upgrade Chrome patch level to 65.0.3325.162
         * [ab58c48] Upgrade Firefox major from 58.0.2 to 59.0
@@ -2516,7 +2516,7 @@
     + Digest: sha256:8fec6bad96f83cc3c9e3a83b3c6846148d8d06fa058e92a4de3b13fb5acddd03
 
 ## 3.11.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.11.0-p0...3.11.0-p1 (2018-03-13)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.11.0-p0...3.11.0-p1 (2018-03-13)
     + Diego Molina (1):
         * [2b07831] Upgrading GeckoDriver to 0.20.0
  + **Image tag details:**
@@ -2537,7 +2537,7 @@
     + Digest: sha256:b2e5640bec2800af223e59f0c3ef27b6252b4b5256084c194a4485f422687bdc
 
 ## 3.11.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.10.0-p3...3.11.0-p0 (2018-03-12)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.10.0-p3...3.11.0-p0 (2018-03-12)
     + Diego Molina (2):
         * [21b5b67] Upgrading to Selenium 3.11.0
         * [d0c138d] Upgrade Python bindings to 3.11.0
@@ -2559,7 +2559,7 @@
     + Digest: sha256:28db041b162df3457a2a231295588a11d3485a77be0183fb8ca28cae009805fa
 
 ## 3.10.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.10.0-p2...3.10.0-p3 (2018-03-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.10.0-p2...3.10.0-p3 (2018-03-07)
     + Diego Molina (1):
         * [e90be84] Update Chrome to 65.0.3325.146
     + Leo Gallucci (1):
@@ -2582,7 +2582,7 @@
     + Digest: sha256:ca91c7c9d0f3cb6f68aae1ca3a8d366e817377fe7ee3b1c465f0d223aa1c52f7
 
 ## 3.10.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.10.0-p1...3.10.0-p2 (2018-03-06)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.10.0-p1...3.10.0-p2 (2018-03-06)
     + Leo Gallucci (1):
         * [d65f588] Upgrade Python bindings to 3.10.0 for tests (#221)
  + **Image tag details:**
@@ -2603,7 +2603,7 @@
     + Digest: sha256:b3d8cf040b0fd810b9bc11c20da6248eb693e9fa9109cd12b5bc8af98ddb87f3
 
 ## 3.10.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.10.0-p0...3.10.0-p1 (2018-03-06)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.10.0-p0...3.10.0-p1 (2018-03-06)
     + Diego Molina (1):
         * [c69da8c] Update ChromeDriver to 2.36
  + **Image tag details:**
@@ -2624,7 +2624,7 @@
     + Digest: sha256:d9f3238161d5f59160feacecf0939bf7c29154666eaa4fc3f99db37703f4165e
 
 ## 3.10.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.9.1-p2...3.10.0-p0 (2018-03-04)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.9.1-p2...3.10.0-p0 (2018-03-04)
     + Diego Molina (1):
         * [8a4f363] Upgrading to 3.10.0
  + **Image tag details:**
@@ -2645,7 +2645,7 @@
     + Digest: sha256:15732906c6eaac33174b25902495b6cddd936cb36543276bf419bb62c917be06
 
 ## 3.9.1-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.9.1-p1...3.9.1-p2 (2018-02-23)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.9.1-p1...3.9.1-p2 (2018-02-23)
     + Leo Gallucci (1):
         * [9e79bc3] Upgrade Chrome Patch to 64.0.3282.186
  + **Image tag details:**
@@ -2666,7 +2666,7 @@
     + Digest: sha256:797ac113064552355f316410fed94c788c4f4873877f3770baa16d940b06c3bc
 
 ## 3.9.1-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.9.1-p0...3.9.1-p1 (2018-02-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.9.1-p0...3.9.1-p1 (2018-02-14)
     + Leo Gallucci (2):
         * [7d195e0] Add MAINTAINER Diego Molina
         * [c5a1151] Upgrade Chrome patch to 64.0.3282.167 (#218)
@@ -2688,7 +2688,7 @@
     + Digest: sha256:dfb8e395153c3fe7168cf39aecfc6afa22f69c0c1b3c160a290fffe0ed8f6887
 
 ## 3.9.1-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.9.0-p1...3.9.1-p0 (2018-02-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.9.0-p1...3.9.1-p0 (2018-02-10)
     + Diego Molina (1):
         * [c666226] Bump to Selenium 3.9.1
  + **Image tag details:**
@@ -2709,7 +2709,7 @@
     + Digest: sha256:5cefdc2d820372ed209647919ae5eba2ed0fe174636b1d22025599771b70fe41
 
 ## 3.9.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.9.0-p0...3.9.0-p1 (2018-02-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.9.0-p0...3.9.0-p1 (2018-02-08)
     + Diego Molina (1):
         * [144275a] Bump Firefox to 58.0.2 (#213)
  + **Image tag details:**
@@ -2730,7 +2730,7 @@
     + Digest: sha256:43596df425663fe262a9ea43188a15f2f201915226252aa5d13593281d57b85b
 
 ## 3.9.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p13...3.9.0-p0 (2018-02-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p13...3.9.0-p0 (2018-02-07)
     + Diego Molina (2):
         * [682a917] Upgrading Selenium to 3.9.0
         * [839ab92] Python bindings upgrade to 3.9.0
@@ -2752,7 +2752,7 @@
     + Digest: sha256:91eb9e9e9f27eecd851df8a412413ddfde1038957af03ae6755660a078c93b38
 
 ## 3.8.1-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p12...3.8.1-p13 (2018-02-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p12...3.8.1-p13 (2018-02-02)
     + Diego Molina (1):
         * [3724e0b] Bump Chrome and Firefox
  + **Image tag details:**
@@ -2773,7 +2773,7 @@
     + Digest: sha256:6208bd0f856d06d105e74b8730cabe9ba1be3cf6b5e448c3f4b5546aea271a7a
 
 ## 3.8.1-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p11...3.8.1-p12 (2018-01-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p11...3.8.1-p12 (2018-01-26)
     + Diego Molina (1):
         * [4132b85] Upgrading Chrome & Ubuntu base image (#208)
  + **Image tag details:**
@@ -2794,7 +2794,7 @@
     + Digest: sha256:37881db56c5d6e418b3edb051078efac4d5dff8d29bab36d35672fbf9b53e59d
 
 ## 3.8.1-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p10...3.8.1-p11 (2018-01-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p10...3.8.1-p11 (2018-01-24)
     + Diego Molina (1):
         * [588ba17] Upgrade Firefox to 58 (#207)
  + **Image tag details:**
@@ -2815,7 +2815,7 @@
     + Digest: sha256:84a5a70f1e32f4704600cce983d5fbdf2ef489e16f72aa36d786cd80b0745d4c
 
 ## 3.8.1-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p9...3.8.1-p10 (2018-01-20)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p9...3.8.1-p10 (2018-01-20)
     + Diego Molina (1):
         * [b5408dd] Retrying to get CONTAINER_IP when using Zalenium (#205)
  + **Image tag details:**
@@ -2836,7 +2836,7 @@
     + Digest: sha256:f44ebae30691f10bb6cd5834433c5b162ede664d9a6f4457f370e909bae486d2
 
 ## 3.8.1-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p8...3.8.1-p9 (2018-01-17)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p8...3.8.1-p9 (2018-01-17)
     + Diego Molina (1):
         * [69519c7] Upgrading Ubuntu base image
  + **Image tag details:**
@@ -2857,7 +2857,7 @@
     + Digest: sha256:92aef58f010b21047ccfadef44c6e2441934dc4bea350fe666aae34543b145cd
 
 ## 3.8.1-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p7...3.8.1-p8 (2018-01-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p7...3.8.1-p8 (2018-01-11)
     + Diego Molina (1):
         * [d0dd418] Upgrade ChromeDriver to 2.35
  + **Image tag details:**
@@ -2878,7 +2878,7 @@
     + Digest: sha256:cf95889f28dc02469d152710dfdaffa6e35cb32a09598a7bcef98838357d7a05
 
 ## 3.8.1-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p6...3.8.1-p7 (2018-01-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p6...3.8.1-p7 (2018-01-05)
     + Diego Molina (1):
         * [df6fa2b] Upgrade Firefox patch to 57.0.4 and Python bindings to 3.8.1
  + **Image tag details:**
@@ -2899,7 +2899,7 @@
     + Digest: sha256:bfa888b39ad5262dcd0e9becfa8c1456cd51c3d09dc7ace46f9f87cf79271e93
 
 ## 3.8.1-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p5...3.8.1-p6 (2018-01-04)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p5...3.8.1-p6 (2018-01-04)
     + Diego Molina (1):
         * [98c5099] Upgrade Chrome patch to 63.0.3239.132
  + **Image tag details:**
@@ -2920,7 +2920,7 @@
     + Digest: sha256:f40f0388469e055b8a893fa47d9887d00edcc824860d5d05552958152e215de6
 
 ## 3.8.1-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p4...3.8.1-p5 (2017-12-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p4...3.8.1-p5 (2017-12-29)
     + Leo Gallucci (1):
         * [0cd9dfc] Upgrade Firefox patch to 57.0.3
  + **Image tag details:**
@@ -2941,7 +2941,7 @@
     + Digest: sha256:4ba3444a4c2a7bf8a389776d1a014712ed6f6a458ff474348ec9d1ecaf38acb0
 
 ## 3.8.1-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p3...3.8.1-p4 (2017-12-15)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p3...3.8.1-p4 (2017-12-15)
     + Diego Molina (2):
         * [67ae58b] Upgrading Chrome to 63.0.3239.108
         * [db73819] UBUNTU Upgrade to 20171201
@@ -2963,7 +2963,7 @@
     + Digest: sha256:40e3d30d7791ff9eaa709bfeea2e1e98205d7ff6ec1dd23c27c4065aad3ace81
 
 ## 3.8.1-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p2...3.8.1-p3 (2017-12-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p2...3.8.1-p3 (2017-12-10)
     + Diego Molina (1):
         * [4f51688] Upgrading ChromeDriver version.
  + **Image tag details:**
@@ -2984,7 +2984,7 @@
     + Digest: sha256:560c77e5fbcf4c21f10ffecdda8d6e52bd1ae88d4b788071b8d4ae856f16e298
 
 ## 3.8.1-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p1...3.8.1-p2 (2017-12-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p1...3.8.1-p2 (2017-12-08)
     + Leo Gallucci (1):
         * [635637f] Upgrade Firefox patch to 57.0.2
  + **Image tag details:**
@@ -3005,7 +3005,7 @@
     + Digest: sha256:09a7a67edbc845c9315957ee471d569b93af91d4b9efbd08f90b861a8362575f
 
 ## 3.8.1-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.8.1-p0...3.8.1-p1 (2017-12-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.8.1-p0...3.8.1-p1 (2017-12-08)
     + Leo Gallucci (1):
         * [65bc268] Upgrade Chrome major 63.0.3239.84
  + **Image tag details:**
@@ -3026,7 +3026,7 @@
     + Digest: sha256:ea3ae4bf99440d06179bb45397d6095b9fe5b44506711070946f640f394770ae
 
 ## 3.8.1-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p7...3.8.1-p0 (2017-12-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p7...3.8.1-p0 (2017-12-02)
     + Diego Molina (1):
         * [0876709] Upgrading to 3.8.1 Grid and 3.8.0 Python bindings
  + **Image tag details:**
@@ -3047,7 +3047,7 @@
     + Digest: sha256:1d9b5ac1280f7c9ff74136ea3d51f5bcda7a77ed615fb2be01472ff871ba6db8
 
 ## 3.7.1-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p6...3.7.1-p7 (2017-11-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p6...3.7.1-p7 (2017-11-30)
     + Leo Gallucci (1):
         * [25f51ce] Upgrade Firefox patch from 57.0 to 57.0.1
  + **Image tag details:**
@@ -3068,7 +3068,7 @@
     + Digest: sha256:709f06aeb0e5459958fff15d34c4b6393d1300a45aa738f90264d40e8d29b509
 
 ## 3.7.1-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p5...3.7.1-p6 (2017-11-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p5...3.7.1-p6 (2017-11-22)
     + Leo Gallucci (3):
         * [033130c] Install libhavege1 to avoid libhavege.so.1: cannot open shared object file
         * [62d2fa0] Switch from apt-get to just apt
@@ -3091,7 +3091,7 @@
     + Digest: sha256:f2357cbe9868816942c31d4167f4d4c88e3119251c5e0a70c4ec6bea05bc7c8c
 
 ## 3.7.1-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p4...3.7.1-p5 (2017-11-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p4...3.7.1-p5 (2017-11-22)
     + Leo Gallucci (1):
         * [a190874] Fix docker-compose examples for #192
  + **Image tag details:**
@@ -3112,7 +3112,7 @@
     + Digest: sha256:df2228989eb524b4105332e5c382ce3e4a4e1a0aee27c8dfc5787a0d281f53e6
 
 ## 3.7.1-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p3...3.7.1-p4 (2017-11-18)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p3...3.7.1-p4 (2017-11-18)
     + Leo Gallucci (1):
         * [8d2bfb1] Upgrade Ubuntu xenial-20171114 (date)
  + **Image tag details:**
@@ -3133,7 +3133,7 @@
     + Digest: sha256:99c77f5a9c33ac52e0689a0e8605ae1c53f3cfb87627fb34f8285201eb787ca3
 
 ## 3.7.1-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p2...3.7.1-p3 (2017-11-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p2...3.7.1-p3 (2017-11-14)
     + Leo Gallucci (1):
         * [2e5c59b] Fix bind on tests for some host environments
  + **Image tag details:**
@@ -3154,7 +3154,7 @@
     + Digest: sha256:3faf06ee1e1c368e5874224696d552a6de98dea0186657c61370f4dd29773ef4
 
 ## 3.7.1-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p1...3.7.1-p2 (2017-11-14)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p1...3.7.1-p2 (2017-11-14)
     + Diego Molina (1):
         * [f74166c] Bumping Chrome and Firefox versions
  + **Image tag details:**
@@ -3175,7 +3175,7 @@
     + Digest: sha256:8768cb27292a3ab0eafcf409936fea7468d2331766d5202827f006d4a9cf17fd
 
 ## 3.7.1-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.1-p0...3.7.1-p1 (2017-11-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.1-p0...3.7.1-p1 (2017-11-11)
     + Leo Gallucci (1):
         * [f791ff0] Upload Zalenium videos & dashboard to http://zalenium.bitballoon.com/dashboard.html (#190)
  + **Image tag details:**
@@ -3196,7 +3196,7 @@
     + Digest: sha256:b2d989743503628093c597ad90792adae11d461edc9593ecce47e1478f4fd5db
 
 ## 3.7.1-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.0-p2...3.7.1-p0 (2017-11-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.0-p2...3.7.1-p0 (2017-11-07)
     + Diego Molina (2):
         * [5d95ffa] Upgrading to 3.7.1
         * [1b73deb] Bumping Chrome version
@@ -3218,7 +3218,7 @@
     + Digest: sha256:e3f56a1d63927975832038a317705da74b6d52dfc864009e7e788b3e3d3d8f17
 
 ## 3.7.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.0-p1...3.7.0-p2 (2017-11-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.0-p1...3.7.0-p2 (2017-11-05)
     + Leo Gallucci (1):
         * [9d5a970] Bump Supervisor master commit from 2017-May to 2017-Oct for #163 (PR #188)
  + **Image tag details:**
@@ -3239,7 +3239,7 @@
     + Digest: sha256:f07b1bc86ee34850a71bc39f962d6a7c65039f2ec8e10a1bd2aab70eee25c291
 
 ## 3.7.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.7.0-p0...3.7.0-p1 (2017-11-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.7.0-p0...3.7.0-p1 (2017-11-03)
     + Leo Gallucci (1):
         * [7f47fc0] Do not fail when a parallel build already released [ci skip]
     + Srinivasan Sekar (1):
@@ -3262,7 +3262,7 @@
     + Digest: sha256:b62d7332cf8d93cdc8723d12012da416a49c7a17cb215da0c015c594cce390bc
 
 ## 3.7.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p15...3.7.0-p0 (2017-11-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p15...3.7.0-p0 (2017-11-03)
     + Christophe Gosiau (1):
         * [ef96b7b] Upgrade Selenium minor to 3.7.0 (#186)
     + Leo Gallucci (1):
@@ -3285,7 +3285,7 @@
     + Digest: sha256:6403925d280f702f5b6b92757e6671e65bd10aa869c2c29fe9b3e9503244f55a
 
 ## 3.6.0-p15
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p14...3.6.0-p15 (2017-11-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p14...3.6.0-p15 (2017-11-03)
     + Leo Gallucci (1):
         * [b84cc9c] Turn some ENVs into ARGs. Fix CI from forks
  + **Image tag details:**
@@ -3306,7 +3306,7 @@
     + Digest: sha256:5b81f4ff29590677bd92da123f22a3f555485e20d5b1b4430b463fa6761eb97b
 
 ## 3.6.0-p14
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p13...3.6.0-p14 (2017-11-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p13...3.6.0-p14 (2017-11-03)
     + javpaw (1):
         * [f3b7572] Upgrade geckodriver patch level to 0.19.01 (#185)
  + **Image tag details:**
@@ -3327,7 +3327,7 @@
     + Digest: sha256:df4061bb84ab212082209aee4844e2fcd90cb1f12dec09e692a757c19db10d2f
 
 ## 3.6.0-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p12...3.6.0-p13 (2017-11-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p12...3.6.0-p13 (2017-11-02)
     + Leo Gallucci (1):
         * [1bdcf38] Skip tag latest on TravisCI
  + **Image tag details:**
@@ -3348,7 +3348,7 @@
     + Digest: sha256:78bc795f1ee8d9e5456d83cc7fca7c9b6ff4b8b76cf5767cb7d87ea4c9d90ad4
 
 ## 3.6.0-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p11...3.6.0-p12 (2017-11-02)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p11...3.6.0-p12 (2017-11-02)
     + Leo Gallucci (8):
         * [a7a2446] Automate releasing from master branch on tagged commits
         * [9c9d09e] Simplify CONTRIBUTING.md and local testing
@@ -3376,7 +3376,7 @@
     + Digest: sha256:36895aea5ee2446ba8714720563de612ca1403ebe6a6158bc5c4afd2675e0448
 
 ## 3.6.0-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p10...3.6.0-p11 (2017-11-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p10...3.6.0-p11 (2017-11-01)
     + Leo Gallucci (1):
         * [ff34979] Fix build: match wget version in TravisCI
  + **Image tag details:**
@@ -3397,7 +3397,7 @@
     + Image ID: sha256:1b013d7ca34a6612e81ecad7970c4054c8465adebe524a105e731b3786f0a639
 
 ## 3.6.0-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p9...3.6.0-p10 (2017-11-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p9...3.6.0-p10 (2017-11-01)
     + Leo Gallucci (1):
         * [8a7e5ab] Gather the chrome.deb artifact to include it in the release
  + **Image tag details:**
@@ -3418,7 +3418,7 @@
     + Image ID: sha256:b0087c4062442e7b60a9bce9a1b256483f2c4e005be5e9f80d796e9d1dd01853
 
 ## 3.6.0-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p8...3.6.0-p9 (2017-11-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p8...3.6.0-p9 (2017-11-01)
     + Leo Gallucci (4):
         * [abaa4c1] Fix CHANGELOG.md ending M issue
         * [f89bc33] Bump version for testing automated releases
@@ -3442,7 +3442,7 @@
     + Image ID: sha256:1ca471e620aad21eaaa33004c290d6bd7dd4814917b652a49ad2119b2ee59d78
 
 ## 3.6.0-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p7...3.6.0-p8 (2017-11-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p7...3.6.0-p8 (2017-11-01)
     + Leo Gallucci (3):
         * [da43680] Fix previous 3.6.0-p7 CHANGELOG.md text
         * [8327741] Bump version for 3.6.0-p8
@@ -3465,7 +3465,7 @@
     + Image ID: sha256:283f34c667e51d6f45ffdab77490bac772128df26e899b98b66e0d17c1f6b211
 
 ## 3.6.0-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p6...3.6.0-p7 (2017-11-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p6...3.6.0-p7 (2017-11-01)
     + Christophe Gosiau (1):
         * [eeba60c] Fix logs for video-recording (#184)
     + Leo Gallucci (2):
@@ -3489,7 +3489,7 @@
     + Image ID: sha256:a1ef7e0591908193835f7e4db5aa03cbf499cc3f2a6530320e43ff9b9f35b277
 
 ## 3.6.0-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p5...3.6.0-p6 (2017-10-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p5...3.6.0-p6 (2017-10-30)
     + Cleaning up notifications before the next test starts (#183) @diemol
  + **Image tag details:**
     + Selenium version: 3.6.0 (6fbf3ec767)
@@ -3512,7 +3512,7 @@
     + Image ID: sha256:678353c759b3a7752deeea2997595aee8391167bad4b0a26b698558a9cbb04bf
 
 ## 3.6.0-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p4...3.6.0-p5 (2017-10-27)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p4...3.6.0-p5 (2017-10-27)
     + Upgrade Chrome patch to 62.0.3202.75
     + Upgrade Firefox patch to 56.0.2
     + Use ARG instruction for label:selenium_chrome_version
@@ -3540,7 +3540,7 @@
     + Image ID: sha256:d360899ce28c039023b1e672265b023f15fb284c91860e97b4c2d7f718308fc1
 
 ## 3.6.0-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p3...3.6.0-p4 (2017-10-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p3...3.6.0-p4 (2017-10-19)
     + Upgrade Chrome major to 62.0.3202.62
     + Upgrade ubuntu:xenial-20171006
     + Start using the Dockerfile ARG instruction
@@ -3565,7 +3565,7 @@
     + Image ID: sha256:788ce861e1f51fcb514cbab8c1490e13ae47e56122df53e36743f63534397e78
 
 ## 3.6.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p2...3.6.0-p3 (2017-10-10)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p2...3.6.0-p3 (2017-10-10)
     + Upgrade Firefox patch to 56.0.1
     + Use getent hosts and HOSTNAME to improve figuring the CONTAINER_IP
     + Improve gpg --keyserver pool and retry code
@@ -3590,7 +3590,7 @@
     + Image ID: sha256:9cb348d9a0049dcfba41df76d9c56097a5a501a03d51ed094590cd0c3e3a0831
 
 ## 3.6.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p1...3.6.0-p2 (2017-10-08)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p1...3.6.0-p2 (2017-10-08)
     + Adding custom images to use them in notifications (#182) @diemol
  + **Image tag details:**
     + Selenium version: 3.6.0 (6fbf3ec767)
@@ -3613,7 +3613,7 @@
     + Image ID: sha256:2b03e739e089a9033cf5dae447c3aae0ab77842779285ac973f84bdd5370ed64
 
 ## 3.6.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.6.0-p0...3.6.0-p1 (2017-10-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.6.0-p0...3.6.0-p1 (2017-10-07)
     + Quoting to keep parameters as they are (#181) @diemol
  + **Image tag details:**
     + Selenium version: 3.6.0 (6fbf3ec767)
@@ -3636,7 +3636,7 @@
     + Image ID: sha256:faed822618120e31b59808afeefa8f741e48fb75cc3fdc308a1c0e39aee6b638
 
 ## 3.6.0-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p14...3.6.0-p0 (2017-10-06)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p14...3.6.0-p0 (2017-10-06)
     + Upgrade Selenium from 3.5.3 to 3.6.0 @diemol
     + Fix WARN: chrome_driver.log:Xlib: extension RANDR missing on display
  + **Image tag details:**
@@ -3660,7 +3660,7 @@
     + Image ID: sha256:6a75b187fb3df388dbc81417b484d39ae259264f4952277af5e01f3955bc9d64
 
 ## 3.5.3-p14
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p13...3.5.3-p14 (2017-10-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p13...3.5.3-p14 (2017-10-05)
     + Upgrade Chromedriver from 2.32 to 2.33
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3683,7 +3683,7 @@
     + Image ID: sha256:d3b51a556fc74b96fc5a0b1109b72b0054f7d253cc2836fd95800b6fd074f1ef
 
 ## 3.5.3-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p12...3.5.3-p13 (2017-10-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p12...3.5.3-p13 (2017-10-01)
     + Add script_scenario_zalenium for Zalenium integration tests
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3706,7 +3706,7 @@
     + Image ID: sha256:a649379621cc3c0c1b2613cf7a89765c71977a4e8507a21342dc5f75971d1233
 
 ## 3.5.3-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p11...3.5.3-p12 (2017-09-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p11...3.5.3-p12 (2017-09-29)
     + Improve resiliency for arbitrary docker run -u 1006:1006 environments #175
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3729,7 +3729,7 @@
     + Image ID: sha256:5f9c930380b12a532811de3bf65b4105037f672ff914e73572cfc3dfc53f49e5
 
 ## 3.5.3-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p10...3.5.3-p11 (2017-09-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p10...3.5.3-p11 (2017-09-29)
     + Fix added 200mb due to chown / chmod docker layers
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3752,7 +3752,7 @@
     + Image ID: sha256:7a20617bb87ac4fedb0678fb72ef0288d8d4890851ee38321c002cc51208479f
 
 ## 3.5.3-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p9...3.5.3-p10 (2017-09-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p9...3.5.3-p10 (2017-09-29)
     + Upgrade Firefox major from 55.0.3 to 56 @diemol
     + Improve resiliency for non-sudo environments #175
     + Tests: CI: Add script_scenario_arbitrary_uid for #175
@@ -3777,7 +3777,7 @@
     + Image ID: sha256:6a2a152386b0caba680b5d228bdbe7a87b2cde9cb7c8532de27898f09ba5aeb7
 
 ## 3.5.3-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p8...3.5.3-p9 (2017-09-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p8...3.5.3-p9 (2017-09-26)
     + Tests: CI: Add logic for untrusted PRs
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3800,7 +3800,7 @@
     + Image ID: sha256:d4c4826b7f67df4f8d099ebc4bde1e351fc8c85e64b0165fe4f0b6de37a82f0e
 
 ## 3.5.3-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p7...3.5.3-p8 (2017-09-25)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p7...3.5.3-p8 (2017-09-25)
     + Add WARN upon failure while removing LOGS_DIR or RUN_DIR #177
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3823,7 +3823,7 @@
     + Image ID: sha256:713560357fbd8594272dedc4a89d349cb557eae0ceeae06e81c29eac71cbcc8a
 
 ## 3.5.3-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p6...3.5.3-p7 (2017-09-25)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p6...3.5.3-p7 (2017-09-25)
     + CI: Re-use the built docker image between stages
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3846,7 +3846,7 @@
     + Image ID: sha256:00ffb530e048101a1570498832643fc0fbdb594f5cab01673e32566ac05e4e0c
 
 ## 3.5.3-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p5...3.5.3-p6 (2017-09-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p5...3.5.3-p6 (2017-09-24)
     + Add notify-send support so message popups like 'Test Failed' will be seen in videos
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3869,7 +3869,7 @@
     + Image ID: sha256:83a3e61f15819e622b21a33ce05e4cdfb9db6e8ac25234301f05b023ca120811
 
 ## 3.5.3-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p4...3.5.3-p5 (2017-09-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p4...3.5.3-p5 (2017-09-24)
     + Fix DOCKER_HOST_IP and CONTAINER_IP (in OSX use docker.for.mac.localhost) #177
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3892,7 +3892,7 @@
     + Image ID: sha256:2470cd7891b41b222da3c5bb3b67d2b498908f62bdf660993d32a65f37149991
 
 ## 3.5.3-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p3...3.5.3-p4 (2017-09-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p3...3.5.3-p4 (2017-09-22)
     + Add REMOVE_SELUSER_FROM_SUDOERS_FOR_TESTING for #175
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3915,7 +3915,7 @@
     + Image ID: sha256:cfbbe04b126706973ddd6708c3950f3d2a0af93a63070db6e4f9be0ab0a84a1e
 
 ## 3.5.3-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p2...3.5.3-p3 (2017-09-22)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p2...3.5.3-p3 (2017-09-22)
     + Upgrade Chrome patch to 61.0.3163.100
     + Fix cannot touch /var/log/cont/docker-selenium-status.log Permission denied for #175
  + **Image tag details:**
@@ -3939,7 +3939,7 @@
     + Image ID: sha256:88fd6e819c1f1294cf374793ee641f0697dece00dba5dc9928752abfd8640482
 
 ## 3.5.3-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p1...3.5.3-p2 (2017-09-21)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p1...3.5.3-p2 (2017-09-21)
     + Support non-sudo environments like K8s for running the container #175
     + TravisCI switch to the new feature: Stages
     + Add Dockerfile.older.browser example on how to install older browsers
@@ -3965,7 +3965,7 @@
     + Image ID: sha256:f9f285981524453ff35d9b478c4353be380de15903bca157e4a0b980c0cf0865
 
 ## 3.5.3-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.5.3-p0...3.5.3-p1 (2017-09-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.5.3-p0...3.5.3-p1 (2017-09-19)
     + Upgrade ubuntu:xenial-20170915
  + **Image tag details:**
     + Selenium version: 3.5.3 (a88d25fe6b)
@@ -3988,7 +3988,7 @@
     + Image ID: sha256:1d54419d3da99052a96fbc50cb13c85e899b887a9b570ff14a23042cd6b19ffc
 
 ## 3.5.3-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.3.1-p27...3.5.3-p0 (2017-09-18)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.3.1-p27...3.5.3-p0 (2017-09-18)
     + Upgrade Selenium from 3.3.1 to 3.5.3
     + Upgrade GeckoDriver from 0.15.0 to 0.19.0
  + **Image tag details:**
@@ -4012,7 +4012,7 @@
     + Image ID: sha256:b086d275b0641d2b36f8e868a7c644a0fb8a3113ac6080641678f39dcbd73b84
 
 ## 3.3.1-p27
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.3.1-p26...3.3.1-p27 (2017-09-15)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.3.1-p26...3.3.1-p27 (2017-09-15)
     + Upgrade Chrome patch to 61.0.3163.91
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4035,7 +4035,7 @@
     + Image ID: sha256:e635105c4491d355645877b05cf5cd3dfa4cb3698046be35f16b0d227f870388
 
 ## 3.3.1-p26
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.3.1-p25...3.3.1-p26 (2017-09-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.3.1-p25...3.3.1-p26 (2017-09-11)
     + Add Zalenium support for having Chrome & Firefox capabilities in the same node:
         -e MULTINODE=true -e SELENIUM_MULTINODE_PORT=25552
  + **Image tag details:**
@@ -4059,7 +4059,7 @@
     + Image ID: sha256:3fb2c1f41d0e9a4518a117d5f98137b78f9eacde4b2004a2e4517b295cc28104
 
 ## 3.3.1-p25
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.3.1-p24...3.3.1-p25 (2017-09-07)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.3.1-p24...3.3.1-p25 (2017-09-07)
     + Upgrade Chrome major to 61.0.3163.79 @iMbaundso
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4082,7 +4082,7 @@
     + Image ID: sha256:860746dc737623812d461b1b7f99d6320d46260e7f602605cf957f24d9259197
 
 ## 3.3.1-p24
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/3.3.1-p23...3.3.1-p24 (2017-09-05)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/3.3.1-p23...3.3.1-p24 (2017-09-05)
     + Upgrade Firefox major from 52.0.2 to 55.0.3
     + Upgrade Chromedriver from 2.31 to 2.32
     + Chore: Use mock server at port 8280
@@ -4108,7 +4108,7 @@
     + Image ID: sha256:f6fa51e01977375ec6d4a3ae60c444e062a4370d971ba9983e010b262584e72a
 
 ## 3.3.1-p23
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/4cee932c06214b21c1329d7...ebdf480ba3fcd6ee72c20 (2017-08-28)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/4cee932c06214b21c1329d7...ebdf480ba3fcd6ee72c20 (2017-08-28)
     + Upgrade Chrome patch to 60.0.3112.112
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4131,7 +4131,7 @@
     + Image ID: sha256:2af8e25ff3c1e3d1ac17217672a08268a47d4aecd06d745261263fe093f9ee1a
 
 ## 3.3.1-p22
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/c15e824fca396637f6c61...4cee932c06214b21c1329d7 (2017-08-16)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/c15e824fca396637f6c61...4cee932c06214b21c1329d7 (2017-08-16)
     + Upgrade Chrome patch to 60.0.3112.101
     + Using the IP (91.189.89.49) instead of (keyserver.ubuntu.com) due to recurrent errors in Travis
     + Stop installing docker-compose as is already part of TravisCI env
@@ -4159,7 +4159,7 @@
     + Image ID: sha256:2fd056a5d606919bc0f02e54e2ef544252c84b1cff540043a37668f42f8b42f5
 
 ## 3.3.1-p21
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/6f0fede4d91c35846d8d...c15e824fca396637f6c61 (2017-08-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/6f0fede4d91c35846d8d...c15e824fca396637f6c61 (2017-08-11)
     + Upgrade ubuntu:xenial-20170802
     + Make mouse pointer visible configurable, credits @safchain
     + Add missing ubuntu key F76221572C52609D
@@ -4184,7 +4184,7 @@
     + Image ID: sha256:be6fca75dde431d6c76f898dffca99c823b9602acdcee85d2e3023a78fe47e59
 
 ## 3.3.1-p20
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/c4d24482f9616a141e...6f0fede4d91c35846d8d (2017-08-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/c4d24482f9616a141e...6f0fede4d91c35846d8d (2017-08-03)
     + Upgrade Chrome patch to 60.0.3112.90
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4207,7 +4207,7 @@
     + Image ID: sha256:b9dcf51253a79fe74d140eff1b36f3871f74b1ab6059ce7d0c0d7989717181ef
 
 ## 3.3.1-p19
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/5a06f0fc024719ca826...c4d24482f9616a141e (2017-07-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/5a06f0fc024719ca826...c4d24482f9616a141e (2017-07-26)
     + Upgrade Chrome major to 60.0.3112.78
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4229,7 +4229,7 @@
     + Image ID: sha256:62d781dd791a3713835953a16323b31a4de17d837be0489fd784ec0c88fcc5cc
 
 ## 3.3.1-p18
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/f6fa6ed112cb66336d52...5a06f0fc024719ca826 (2017-07-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/f6fa6ed112cb66336d52...5a06f0fc024719ca826 (2017-07-24)
     + Upgrade Chromedriver to 2.31 (version with completed headless support)
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4251,7 +4251,7 @@
     + Image ID: sha256:06ed4547fbd77217c76b7bab379dafb8101504b7e7ff0277b330d5320e707dd0
 
 ## 3.3.1-p17
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/5a95867c8ecf9e88a628...f6fa6ed112cb66336d52 (2017-07-03)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/5a95867c8ecf9e88a628...f6fa6ed112cb66336d52 (2017-07-03)
     + Upgrade Chrome patch to 59.0.3071.115
     + Add GA --data cd20="${ZALENIUM}"
     + Add attributes file to resolve eol errors #161 (#162) credits @ReservedDeveloper
@@ -4275,7 +4275,7 @@
     + Image ID: sha256:2e10d93ac4e83da8f42d3f556d9c8385474aeafa3a96e7839d0c363a8254eaff
 
 ## 3.3.1-p16
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/cd0ce13d3f2fd8dd6e9767b...5a95867c8ecf9e88a628 (2017-06-21)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/cd0ce13d3f2fd8dd6e9767b...5a95867c8ecf9e88a628 (2017-06-21)
     + Support google chrome --lang argument, credits @pearj
     + Upgrade ubuntu:xenial-20170619
     + Upgrade Chrome patch to 59.0.3071.109
@@ -4299,7 +4299,7 @@
     + Image ID: sha256:a97b76583f4d20e7b3cb37cd3fe6a6555ce8948db2ba49eb44a5efc8b9389140
 
 ## 3.3.1-p15
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/817c21d0253ee75430adf...cd0ce13d3f2fd8dd6e9767b (2017-06-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/817c21d0253ee75430adf...cd0ce13d3f2fd8dd6e9767b (2017-06-19)
     + Upgrade Chrome patch to 59.0.3071.104
     + Remove forced network modes for docker-compose examples and tests
     + Remove unnecessary waits to increase startup time
@@ -4329,7 +4329,7 @@
     + Image ID: sha256:25d5b729754efac51b43a742109986915bcc1e3cbb7b593794b734b9d2e57d68
 
 ## 3.3.1-p14
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/6f7531b3a7a981dfb16dd...817c21d0253ee75430adf (2017-06-12)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/6f7531b3a7a981dfb16dd...817c21d0253ee75430adf (2017-06-12)
     + Upgrade Ubuntu xenial to 20170517.1
     + Use custom xmanager wallpaper-dosel.png or wallpaper-zalenium.png
     + Zalenium: Retry via start-xvfb.sh when the DISPLAY fails
@@ -4353,7 +4353,7 @@
     + Image ID: sha256:13f54458e98e48ff415983908439bdbf717aacbf43d40d76ec0f62d2fc386df9
 
 ## 3.3.1-p13
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/2165f8bc5ed5642c61fa500...6f7531b3a7a981dfb16dd (2017-06-09)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/2165f8bc5ed5642c61fa500...6f7531b3a7a981dfb16dd (2017-06-09)
     + Upgrade Chromedriver minor from 2.29 to 2.30
     + Add cleanup-container.sh for Zalenium
     + Tests: Replace Nexus 5 with mobile_emulation = {"deviceName": "iPad"}
@@ -4377,7 +4377,7 @@
     + Image ID: sha256:3028152723d610dbb9f874cbb6b9c9763d0b05ec0f8bf121008a0d8f8b97c416
 
 ## 3.3.1-p12
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/dd21aaab3eb2fff2056d36ca93dbf...2165f8bc5ed5642c61fa500 (2017-06-06)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/dd21aaab3eb2fff2056d36ca93dbf...2165f8bc5ed5642c61fa500 (2017-06-06)
     + Upgrade Chrome major to from 58 to 59.0.3071.86
     + Removed HEALTHCHECK because is providing no value to us
     + Bump supervisord to 2017-05-30 commit: 946d9cf3be4db3
@@ -4408,7 +4408,7 @@
     + Image ID: sha256:f1f03bb91b2ef3e0b76601d3caa4a6a8b00b8482ef73b937a53e16d897d05676
 
 ## 3.3.1-p11
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/5e74ec04c8398054f024d13ed...dd21aaab3eb2fff2056d36ca93dbf (2017-06-01)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/5e74ec04c8398054f024d13ed...dd21aaab3eb2fff2056d36ca93dbf (2017-06-01)
     + Fix the HEALTHCHECK --interval=2m
  + **Image tag details:**
     + Selenium version: 3.3.1 (5234b32)
@@ -4430,7 +4430,7 @@
     + Image ID: sha256:bae5638843586018568d9ce028e44885b937315cd2babdff23adb3cf51774fc3
 
 ## 3.3.1-p10
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/659750865bf0fd569d...5e74ec04c8398054f024d13ed (2017-05-19)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/659750865bf0fd569d...5e74ec04c8398054f024d13ed (2017-05-19)
      + BREAKING CHANGES:
          ++ Drop support for Selenium 2
          ++ From now on we will show a banner and switch directly to selenium 3
@@ -4458,7 +4458,7 @@
     + Image ID: sha256:52158cac8f8285c5da04fc67837f03e974eca2761f5b38ba06a9d9a4ad9ffeeb
 
 ## 3.3.1-p9
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/a219926522070fb44317...659750865bf0fd569d (2017-05-15)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/a219926522070fb44317...659750865bf0fd569d (2017-05-15)
     + Make proper use of haveged for random entropy
     + Require `--privileged` else we get: `haveged: RNDADDENTROPY failed!`
     + Upgrade to Python 3
@@ -4486,7 +4486,7 @@
     + Image ID: sha256:0c6567a577377fe8331221e65432a52f5d5976399228e37922ad60c13c57abbc
 
 ## 3.3.1-p8
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/7c71c322659366daf3...a219926522070fb44317 (2017-05-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/7c71c322659366daf3...a219926522070fb44317 (2017-05-11)
     + Upgrade Chrome patch to 58.0.3029.110
     + Support Japanese/Chinese fonts #153 credits @katryo
     + Chore: Rename requirements-sele-3.txt to requirements.txt
@@ -4512,7 +4512,7 @@
     + Image ID: sha256:e43476074c4dddb691baab4e872b03f25c93932a84bfb151c0e55088c8c60c34
 
 ## 3.3.1-p7
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/113d70a33933ea54168f85c2f5...7c71c322659366daf3 (2017-05-04)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/113d70a33933ea54168f85c2f5...7c71c322659366daf3 (2017-05-04)
     + Upgrade Chrome patch to 58.0.3029.96
     + Add warning that Selenium 2 support will be deprecated
  + **Image tag details:**
@@ -4536,7 +4536,7 @@
     + Image ID: sha256:c6dfcc9f6c6d3ae6de2565a3ba4c38f031240379de3dc5c40e77fd98c6496255
 
 ## 3.3.1-p6
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/c4e8df12781eb031795ea6...113d70a33933ea54168f85c2f5 (2017-04-26)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/c4e8df12781eb031795ea6...113d70a33933ea54168f85c2f5 (2017-04-26)
     + Fix: Do not set --user-data-dir as it breaks the ability of clients to set Chrome options via the capabilities
     + Continue deprecating Selenium 2
     + Chrome arg default: --disable-infobars
@@ -4561,7 +4561,7 @@
     + Image ID: sha256:dcce826266051634d1bb4563dd155a734b5dffaf2a47c99819bd9e94dc8f4faf
 
 ## 3.3.1-p5
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/e5f198e1486630c19283d...c4e8df12781eb031795ea6 (2017-04-24)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/e5f198e1486630c19283d...c4e8df12781eb031795ea6 (2017-04-24)
     + Guard transfer-logs.sh when -e CHROME=false
     + Chore: Tests minor cleanups
     + Chore: Add /logo.png so some apps can grab it
@@ -4588,7 +4588,7 @@
     + Image ID: sha256:b62ee67b5d44eb7925f05eec2abb16c515619829e7ec0ecc5f8b31ee1b763daa
 
 ## 3.3.1-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/4af973351e7d418b67e3...e5f198e1486630c19283d (2017-04-20)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/4af973351e7d418b67e3...e5f198e1486630c19283d (2017-04-20)
     + Upgrade Chrome major from 57 to 58.0.3029.81
     + Add node capability: tz=Europe/Berlin / custom value
     + Breaking change! New default: USE_SELENIUM="3"
@@ -4616,7 +4616,7 @@
     + Image ID: sha256:d0bebae211b2e71fede94d3330b6c12b30598882fb7adae1e4b818156c73488e
 
 ## 3.3.1-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/9ae23377592888aea4...4af973351e7d418b67e3 (2017-04-18)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/9ae23377592888aea4...4af973351e7d418b67e3 (2017-04-18)
     + Fix tzdata not installed credits @dubner @tnguyen14 @eitany https://goo.gl/n84gJl
     + Upgrade Ubuntu xenial-20170214 to 20170410
     + Support config env var ZALENIUM="true" / "false"
@@ -4644,7 +4644,7 @@
     + Image ID: sha256:d3abd44aec99463a0481c9ac9e8ada55acc6af058a07bac9f5e11f72fcc5637e
 
 ## 3.3.1-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/273a2e5e236f854eaace315...9ae23377592888aea4 (2017-04-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/273a2e5e236f854eaace315...9ae23377592888aea4 (2017-04-11)
     + Add /var/log/cont/chrome_browser.log for Chrome driver logs via transfer-logs.sh
     + Fix /var/log/cont/firefox_browser.log due to https://goo.gl/5NgU2t
     + Breaking change: Rename chromedriver.log into chrome_driver.log
@@ -4671,7 +4671,7 @@
     + Image ID: sha256:134a94eae02cb61a1ff98c31881ad3c34586d1472fef317fe96c85178eb69f5d
 
 ## 3.3.1-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/236b861177bd2917d86...273a2e5e236f854eaace315 (2017-04-11)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/236b861177bd2917d86...273a2e5e236f854eaace315 (2017-04-11)
     + Upgrade Chromedriver minor from 2.28 to 2.29
     + Add /var/log/cont/firefox_browser.log for Firefox browser logs
     + Add /var/log/cont/firefox_driver.log  for Firefox driver logs
@@ -4700,7 +4700,7 @@
     + Image ID: sha256:661faaceac6df800c86a404a559488856f91a5244beaa51e45e1e983b7730851
 
 ## 3.3.1-p0
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/326af92110685041616f79b4...236b861177bd2917d86 (2017-03-30)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/326af92110685041616f79b4...236b861177bd2917d86 (2017-03-30)
     + Upgrade Selenium minor to from 3.2.0 to 3.3.1
     + Upgrade Firefox major from 51.0.1 to 52.0.2
     + Upgrade GeckoDriver from 0.14.0 to 0.15.0
@@ -4730,7 +4730,7 @@
     + Image ID: sha256:add6fec4e206c351e9c7019046da9b48760ebbc5f61f58080dfa83e5a2a3a61e
 
 ## 3.2.0-p4
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/b2f04d2c7a4c109413...326af92110685041616f79b4 (2017-03-29)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/b2f04d2c7a4c109413...326af92110685041616f79b4 (2017-03-29)
     + Improve stop-video functionality via VIDEO_TMP_FILE_EXTENSION & others
     + Avoid wait video shutdown from halting in Zalenium / in general
     + Improve video stopping workflow by grabbing mkv and converting to mp4 after that
@@ -4758,7 +4758,7 @@
     + Image ID: sha256:f2df1c4395ffa0ee42e509c0437b6ffe90c75f334d571a0a996154ec83b71c68
 
 ## 3.2.0-p3
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/1fc47f3ae9194f3192ed17...b2f04d2c7a4c109413 (2017-03-21)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/1fc47f3ae9194f3192ed17...b2f04d2c7a4c109413 (2017-03-21)
     + Enable MP4Box as it was incorrectly targeting the files
  + **Image tag details:**
     + Selenium 2: 2.53.1 (a36b8b1)
@@ -4783,7 +4783,7 @@
     + Image ID: sha256:71bd27ac6b34556fd40431e531bdbd5dd953b306f8e5e4e72d225867b9d65865
 
 ## 3.2.0-p2
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/6bf62d977c15c77084e3b2b...1fc47f3ae9194f3192ed17 (2017-03-21)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/6bf62d977c15c77084e3b2b...1fc47f3ae9194f3192ed17 (2017-03-21)
     + Add screen resolution aliases as capabilities for Zalenium
         **screenResolution**
         **resolution**
@@ -4819,7 +4819,7 @@
     + Image ID: sha256:a3e51c1687ba683a83c81bace2fb12c2b5e580cd4700fa9371666cd3a29e69fa
 
 ## 3.2.0-p1
- + **Changes:** https://github.com/elgalu/docker-selenium/compare/b87af04d2d7f767c65d666d...6bf62d977c15c77084e3b2b (2017-03-20)
+ + **Changes:** https://github.com/furkandogan/docker-selenium/compare/b87af04d2d7f767c65d666d...6bf62d977c15c77084e3b2b (2017-03-20)
     + Upgrade Chrome patch to 57.0.2987.110
     + Add Dockerfile `LABEL selenium_version`
  + **Image tag details:**
@@ -4845,7 +4845,7 @@
     + Image ID: sha256:6c85d918f592e97c3e5297b5fa6a967ea809523add4493a45b6611d5a19e8359
 
 ## 3.2.0-p0
- + **[Changes](https://github.com/elgalu/docker-selenium/compare/a9a56610bee6c3d9...8c740e9b66564265adc):** (2017-03-13)
+ + **[Changes](https://github.com/furkandogan/docker-selenium/compare/a9a56610bee6c3d9...8c740e9b66564265adc):** (2017-03-13)
       + Upgrade Selenium minor from 3.1.0 to 3.2.0
       + Upgrade Chrome major from 56 to 57.0.2987.98
       + Upgrade Chromedriver minor from 2.27 to 2.28
@@ -7672,7 +7672,7 @@
 ## v2.46.0-sup
  + **Changes:** (2015-07-13)
  + Switched to supervidord for process management, closes #24 (Leo Gallucci)
- + Extracted guacamole (with tomcat) into elgalu/guaca-docker.
+ + Extracted guacamole (with tomcat) into furkandogan/guaca-docker.
  + Switched from guacamole to noVNC.
  + Refactored code and directory structure.
  + Renamed SSH_PUB_KEY to SSH_AUTH_KEYS to reflect the true meaning.

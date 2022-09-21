@@ -82,7 +82,7 @@ Main technical debt now is issue [31][] "Comply with docker official-images requ
 
 ##### Testing
 
-The [official][stock] one at [SeleniumHQ][] is using [CircleCI][] while [elgalu/selenium][] uses [TravisCI][] so tests basically have a couple of scenarios, running front-end tests on Chrome, on Firefox and restarting the container to check it still works after that. We should potentially add more tests for each bug that comes up to increase coverage in the future.
+The [official][stock] one at [SeleniumHQ][] is using [CircleCI][] while [furkandogan/selenium][] uses [TravisCI][] so tests basically have a couple of scenarios, running front-end tests on Chrome, on Firefox and restarting the container to check it still works after that. We should potentially add more tests for each bug that comes up to increase coverage in the future.
 
 <h4 id="FUTURE">What is the future of this project? What's the roadmap?</h4>
 
@@ -91,7 +91,7 @@ Right now people tend to build long running selenium grids by using the [stock][
 
 [lauri]: https://twitter.com/LauritaApplez
 [raffo]: http://raffo.github.io/
-[docker-selenium]: https://github.com/elgalu/docker-selenium
+[docker-selenium]: https://github.com/furkandogan/docker-selenium
 [stock]: https://github.com/SeleniumHQ/docker-selenium
 [AppNexus]: https://en.wikipedia.org/wiki/AppNexus
 [xvfb-sel]: http://elementalselenium.com/tips/38-headless
@@ -100,20 +100,20 @@ Right now people tend to build long running selenium grids by using the [stock][
 [PhantomJS]: https://github.com/ariya/phantomjs
 [Protractor]: https://github.com/angular/protractor
 [prot-browser-support]: https://angular.github.io/protractor/#/browser-support
-[TravisCI]: https://github.com/elgalu/docker-selenium/blob/master/.travis.yml
-[travis-build]: https://travis-ci.org/elgalu/docker-selenium/builds/123103275
+[TravisCI]: https://github.com/furkandogan/docker-selenium/blob/master/.travis.yml
+[travis-build]: https://travis-ci.org/furkandogan/docker-selenium/builds/123103275
 [CircleCI]: https://github.com/SeleniumHQ/docker-selenium/blob/master/circle.yml
-[31]: https://github.com/elgalu/docker-selenium/issues/31
-[40]: https://github.com/elgalu/docker-selenium/issues/40
-[matt-improv]: https://github.com/elgalu/docker-selenium/commits?author=mtscout6
+[31]: https://github.com/furkandogan/docker-selenium/issues/31
+[40]: https://github.com/furkandogan/docker-selenium/issues/40
+[matt-improv]: https://github.com/furkandogan/docker-selenium/commits?author=mtscout6
 [happened]: https://github.com/SeleniumHQ/docker-selenium
-[features]: https://github.com/elgalu/docker-selenium#notes-on-similar-repo-seleniumhqdocker-selenium
+[features]: https://github.com/furkandogan/docker-selenium#notes-on-similar-repo-seleniumhqdocker-selenium
 [presentation]: https://twitter.com/rubytester/status/644965076072574976
 [rubytester]: https://github.com/rubytester
 [tweet1]: https://twitter.com/vvoyer/status/687266750380027905
 [tony]: https://www.linkedin.com/in/anthony-carrillo-1232422
 [SPOF]: https://en.wikipedia.org/wiki/Single_point_of_failure
-[analytics]: https://github.com/elgalu/docker-selenium/graphs/traffic
+[analytics]: https://github.com/furkandogan/docker-selenium/graphs/traffic
 [sauce]: https://saucelabs.com/selenium/selenium-grid
 [BrowserStack]: https://www.browserstack.com/automate
 [AngularJS]: https://angularjs.org/
@@ -122,21 +122,21 @@ Right now people tend to build long running selenium grids by using the [stock][
 [Selenium]: https://github.com/SeleniumHQ/selenium
 [docker]: https://github.com/docker/docker
 [grid]: https://github.com/SeleniumHQ/selenium/wiki/Grid2
-[elgalu/selenium]: https://github.com/elgalu/docker-selenium
+[furkandogan/selenium]: https://github.com/furkandogan/docker-selenium
 [angular-issues]: https://git.io/vwntr
 [docker-issues]: https://git.io/vwnq5
 [mtscout6]: https://github.com/mtscout6
 [SeleniumHQ]: https://github.com/SeleniumHQ
-[next]: https://github.com/elgalu/docker-selenium/issues/65#issuecomment-212462604
-[jenking-plugin]: https://github.com/elgalu/docker-selenium/issues/80
-[verdetection]: https://github.com/elgalu/docker-selenium/issues/81
+[next]: https://github.com/furkandogan/docker-selenium/issues/65#issuecomment-212462604
+[jenking-plugin]: https://github.com/furkandogan/docker-selenium/issues/80
+[verdetection]: https://github.com/furkandogan/docker-selenium/issues/81
 [zal-teams]: https://tech.zalando.com/blog/radical-agility-with-autonomous-teams-and-microservices-in-the-cloud/
 [Algolia]: https://www.algolia.com/
 [@vvo]: https://github.com/vvo
 [auto-builds]: https://docs.docker.com/docker-hub/builds
 [CI]: https://en.wikipedia.org/wiki/Continuous_integration
 [stock-208]: https://github.com/SeleniumHQ/docker-selenium/issues/208
-[tests]: https://github.com/elgalu/docker-selenium/tree/master/test
+[tests]: https://github.com/furkandogan/docker-selenium/tree/master/test
 [Wallaby.js]: https://wallabyjs.com
 [Electron]: https://wallabyjs.com/docs/integration/electron.html
 [gource]: ./gource.md

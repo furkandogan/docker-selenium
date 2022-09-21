@@ -12,7 +12,7 @@ Flags `-e CHROME=false -e FIREFOX=false` turn the container into a grid-only one
       -e GRID=true -e CHROME=false -e FIREFOX=false \
       -e VNC_START=false -e PICK_ALL_RANDOM_PORTS=true \
       -e SELENIUM_HUB_PORT=4444 \
-      elgalu/selenium
+      furkandogan/selenium
 
     docker exec hub wait_all_done 30s
 
@@ -31,7 +31,7 @@ Chrome will also attach to the `host` network interface.
       -e VNC_START=false -e PICK_ALL_RANDOM_PORTS=true \
       -e SELENIUM_HUB_PORT=4444 \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ![docker-selenium-chrome-node](../images/chrome_grid_console.png)
 
@@ -40,7 +40,7 @@ Chrome will also attach to the `host` network interface.
       -e VNC_START=false -e PICK_ALL_RANDOM_PORTS=true \
       -e SELENIUM_HUB_PORT=4444 \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ### Firefox
 Firefox will also attach to the host machine network interface.
@@ -50,7 +50,7 @@ Firefox will also attach to the host machine network interface.
       -e VNC_START=false -e PICK_ALL_RANDOM_PORTS=true \
       -e SELENIUM_HUB_PORT=4444 \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ![docker-selenium-firefox-node](../images/firefox_grid_console.png)
 
@@ -59,7 +59,7 @@ Firefox will also attach to the host machine network interface.
       -e VNC_START=false -e PICK_ALL_RANDOM_PORTS=true \
       -e SELENIUM_HUB_PORT=4444 \
       --shm-size=1g \
-      elgalu/selenium
+      furkandogan/selenium
 
 ### Wait
 Is convenient to wait for all the nodes to start correctly, also to catch errors before starting the tests in vane:

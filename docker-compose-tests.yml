@@ -78,7 +78,7 @@ services:
       - FIREFOX=true
 
   mock:
-    image: elgalu/google_adwords_mock
+    image: furkandogan/google_adwords_mock
     depends_on:
       - hub
     tty: true

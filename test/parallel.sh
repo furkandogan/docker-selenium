@@ -53,7 +53,7 @@ fi
 
 docker rm adwords_mock || true
 docker run -d --name=adwords_mock -e MOCK_SERVER_PORT \
-  -p $MOCK_SERVER_PORT:$MOCK_SERVER_PORT elgalu/google_adwords_mock
+  -p $MOCK_SERVER_PORT:$MOCK_SERVER_PORT furkandogan/google_adwords_mock
 
 export MOCK_SERVER_HOST=`docker inspect -f='{{.NetworkSettings.IPAddress}}' adwords_mock`
 

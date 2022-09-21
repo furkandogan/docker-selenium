@@ -1,6 +1,6 @@
 # Security notes on Docker-Selenium
 
-The docker images are built and pushed from [TravisCI](https://travis-ci.org/elgalu/docker-selenium/builds/123103275) for full traceability.
+The docker images are built and pushed from [TravisCI](https://travis-ci.org/furkandogan/docker-selenium/builds/123103275) for full traceability.
 
 Using `VNC_PASSWORD=no` will make it VNC passwordless accessible, leave it empty to get a randomly generated one or if you don't use VNC simply deactivate it via `docker run ... -e VNC_START=false` but VNC is currently set to not use encryption. This should be irrelevant as the VNC should only be accessible within your Docker host machine, if you choose to expose VNC to the outside world
 
@@ -16,7 +16,7 @@ You can simply verify that image id is indeed the correct one.
 
     # e.g. full image id for some specific tag version
     export IMGID="<<Please see CHANGELOG.md>>"
-    if docker inspect -f='{{.Id}}' elgalu/selenium:latest |grep ${IMGID} >/dev/null; then
+    if docker inspect -f='{{.Id}}' furkandogan/selenium:latest |grep ${IMGID} >/dev/null; then
         echo "Image ID tested ok"
     else
         echo "Image ID doesn't match"

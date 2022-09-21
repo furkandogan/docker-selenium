@@ -38,13 +38,13 @@ Sample output
 ## Docker
 ### Build
 
-    docker build -t elgalu/selenium-test .
+    docker build -t furkandogan/selenium-test .
 
 ### Run
 
     export SELENIUM_HUB_HOST=$(docker inspect -f='{{.NetworkSettings.IPAddress}}' myselenium)
-    docker run --rm --name=test1 -ti -e SELENIUM_HUB_HOST elgalu/selenium-test
+    docker run --rm --name=test1 -ti -e SELENIUM_HUB_HOST furkandogan/selenium-test
 
 
-[selenium-test-dockerized]: https://github.com/elgalu/selenium-test-dockerized
-[docker-selenium]: https://github.com/elgalu/docker-selenium
+[selenium-test-dockerized]: https://github.com/furkandogan/selenium-test-dockerized
+[docker-selenium]: https://github.com/furkandogan/docker-selenium

@@ -59,7 +59,7 @@ docker run --name=mynodes -d \
 docker run -d -t --name=grid_mock -e MOCK_SERVER_PORT \
   --net=container:mynodes \
   -e CI \
-  elgalu/google_adwords_mock
+  furkandogan/google_adwords_mock
 
 docker exec mynodes wait_all_done 20s || (docker logs mynodes && docker exec mynodes errors)
 docker exec mynodes wait_all_done 70s
@@ -109,7 +109,7 @@ docker run --name=mynodes -d \
 docker run -d -t --name=grid_mock -e MOCK_SERVER_PORT \
   --net=container:mynodes \
   -e CI \
-  elgalu/google_adwords_mock
+  furkandogan/google_adwords_mock
 
 docker exec mynodes wait_all_done 20s || (docker logs mynodes && docker exec mynodes errors)
 docker exec mynodes wait_all_done 70s
@@ -164,7 +164,7 @@ docker run --name=mynodes -d \
 docker run -d -t --name=grid_mock -e MOCK_SERVER_PORT \
   --net=container:mynodes \
   -e CI \
-  elgalu/google_adwords_mock
+  furkandogan/google_adwords_mock
 
 docker exec mynodes wait_all_done 20s || (docker logs mynodes && docker exec mynodes errors)
 docker exec mynodes wait_all_done 70s

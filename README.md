@@ -2,9 +2,9 @@
 
 # Selenium in Docker with Chrome and Firefox
 
-[![Build Status](https://travis-ci.org/elgalu/docker-selenium.svg?branch=master)](https://travis-ci.org/elgalu/docker-selenium "Travis CI")
-[![Docker Pulls](https://img.shields.io/docker/pulls/elgalu/selenium.svg)](https://hub.docker.com/r/elgalu/selenium/tags/)
-[![Docker](https://images.microbadger.com/badges/version/elgalu/selenium.svg)](https://microbadger.com/images/elgalu/selenium "Docker Badge")
+[![Build Status](https://travis-ci.org/furkandogan/docker-selenium.svg?branch=master)](https://travis-ci.org/furkandogan/docker-selenium "Travis CI")
+[![Docker Pulls](https://img.shields.io/docker/pulls/furkandogan/selenium.svg)](https://hub.docker.com/r/furkandogan/selenium/tags/)
+[![Docker](https://images.microbadger.com/badges/version/furkandogan/selenium.svg)](https://microbadger.com/images/furkandogan/selenium "Docker Badge")
 
 * selenium server grid with 2 nodes (chrome & firefox)
 * mp4 video recording
@@ -14,7 +14,7 @@
 * google-chrome-unstable: no longer provided but [can still be found here][2.47.1m]
 * firefox stable latest
 * firefox stable [last 18 versions can be found here][2.47.1m]
-* fluxbox (openbox window manager can still be found [here](https://github.com/elgalu/docker-selenium/releases/tag/3.0.1c))
+* fluxbox (openbox window manager can still be found [here](https://github.com/furkandogan/docker-selenium/releases/tag/3.0.1c))
 
 Selenium 3  `docker run ... furkandogan/selenium:latest`
 ![docker-selenium-grid](./images/grid3_console.png)
@@ -72,10 +72,10 @@ You will need to run the second `eval` command for every new terminal window.
 
 1. Pull the image and run the container
 
-        docker pull elgalu/selenium #upgrades to latest if a newer version is available
+        docker pull furkandogan/selenium #upgrades to latest if a newer version is available
 
         docker run -d --name=grid -p 4444:24444 -p 5900:25900 \
-            -e TZ="US/Pacific" -v /dev/shm:/dev/shm --privileged elgalu/selenium
+            -e TZ="US/Pacific" -v /dev/shm:/dev/shm --privileged furkandogan/selenium
 
 2. Wait until the grid starts properly before starting the tests _(Optional but recommended)_
 
@@ -118,14 +118,14 @@ If you want to limit yourself to this project, you still can. There are some way
         docker-compose -f docker-compose-tests.yml -p grid up --force-recreate
         docker-compose -f docker-compose-tests.yml -p grid scale mock=1 hub=1 chrome=3 firefox=3
 
-1. The _(not recommended)_ way is by increasing `MAX_INSTANCES` and `MAX_SESSIONS` which now [defaults](https://github.com/elgalu/docker-selenium/blob/2.53.1a/Dockerfile#L967) to 1.
+1. The _(not recommended)_ way is by increasing `MAX_INSTANCES` and `MAX_SESSIONS` which now [defaults](https://github.com/furkandogan/docker-selenium/blob/2.53.1a/Dockerfile#L967) to 1.
 
         docker run -d --name=grid -p 4444:24444 -p 5900:25900 \
             -v /dev/shm:/dev/shm --privileged \
             -e MAX_INSTANCES=20 -e MAX_SESSIONS=20 \
             furkandogan/selenium
 
-The drawback is that all tests will run on the same desktop meaning the video recording will only capture the browser in the foreground but it's in the roadmap to make all this transparent, see issues [#78](https://github.com/elgalu/docker-selenium/issues/78) and [#77](https://github.com/elgalu/docker-selenium/issues/77).
+The drawback is that all tests will run on the same desktop meaning the video recording will only capture the browser in the foreground but it's in the roadmap to make all this transparent, see issues [#78](https://github.com/furkandogan/docker-selenium/issues/78) and [#77](https://github.com/furkandogan/docker-selenium/issues/77).
 
 Another problem with increasing `MAX_INSTANCES` & `MAX_SESSIONS` is focus issues. So in this case is better scale up/down via [docker-compose](./docs/docker-compose.md).
 
@@ -224,7 +224,7 @@ You need to pass the environment variable `-e NOVNC=true` in order to start the 
       -v /dev/shm:/dev/shm --privileged -p 6080:26080 -e NOVNC=true \
       furkandogan/selenium
 
-You can provide additional [NoVNC options](https://github.com/elgalu/noVNC/blob/dosel/app/ui.js#L156) such as `?view_only=false` to allow you to interact with the virtual desktop which now is read-only by default so you don't mess with the tests accidentally.
+You can provide additional [NoVNC options](https://github.com/furkandogan/noVNC/blob/dosel/app/ui.js#L156) such as `?view_only=false` to allow you to interact with the virtual desktop which now is read-only by default so you don't mess with the tests accidentally.
 
 If the VNC password was randomly generated find out with
 
@@ -373,7 +373,7 @@ Full example using `--net=host` and `--pid=host` but for this to work in OSX you
 
 #### DNS example
 
-    docker run -d --net=host --pid=host --name=grid -v /dev/shm:/dev/shm --privileged elgalu/selenium
+    docker run -d --net=host --pid=host --name=grid -v /dev/shm:/dev/shm --privileged furkandogan/selenium
     docker exec grid wait_all_done 30s
 
 ## Who is using docker-selenium?

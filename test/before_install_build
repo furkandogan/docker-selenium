@@ -25,7 +25,7 @@ echo "Logged in to docker with user '${DOCKER_USERNAME}'"
 
 ./host-scripts/gen-scm-source.sh
 docker build -t selenium .
-docker tag selenium:latest elgalu/selenium:latest
+docker tag selenium:latest furkandogan/selenium:latest
 docker images selenium
 
 if [ "${TRAVIS_BUILD_NUMBER}" != "" ]; then

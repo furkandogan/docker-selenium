@@ -337,7 +337,7 @@ USER seluser
 ########################################
 # noVNC to expose VNC via an html page #
 ########################################
-# Download elgalu/noVNC dated 2016-11-18 commit 9223e8f2d1c207fb74cb4b8cc243e59d84f9e2f6
+# Download furkandogan/noVNC dated 2016-11-18 commit 9223e8f2d1c207fb74cb4b8cc243e59d84f9e2f6
 # Download kanaka/noVNC dated 2016-11-10 commit 80b7dde665cac937aa0929d2b75aa482fc0e10ad
 # Download kanaka/noVNC dated 2016-02-24 commit b403cb92fb8de82d04f305b4f14fa978003890d7
 # Download kanaka/websockify dated 2016-10-10 commit cb1508fa495bea4b333173705772c1997559ae4b
@@ -544,7 +544,7 @@ ENV DEFAULT_SELENIUM_HUB_PORT="24444" \
     DEFAULT_SUPERVISOR_HTTP_PORT="19001"
 
 # Commented for now; all these versions are still available at
-#   https://github.com/elgalu/docker-selenium/releases/tag/2.47.1m
+#   https://github.com/furkandogan/docker-selenium/releases/tag/2.47.1m
 # CHROME_FLAVOR "stable"
 #   Default chrome flavor, options no longer available: beta|unstable
 # PICK_ALL_RANDOM_PORTS "true" / "false"
