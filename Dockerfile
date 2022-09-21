@@ -250,7 +250,7 @@ RUN cd /usr/local/bin \
 # 2017-10-21 commit: 3f04badc3237f0, supervisor/version.txt: 4.0.0.dev0
 # 2017-05-30 commit: 946d9cf3be4db3, supervisor/version.txt: 4.0.0.dev0
 ENV RUN_DIR="/var/run/sele"
-RUN SHA="837c159ae51f3bf12c1d30a8cb44f3450611983c" \
+RUN SHA="602d6f574a3cba021ec3865bee6ebe20149fff26" \
   && pip install --no-cache \
       "https://github.com/Supervisor/supervisor/zipball/${SHA}" || \
      pip install --no-cache \
@@ -339,15 +339,15 @@ USER seluser
 # Download kanaka/noVNC dated 2016-02-24 commit b403cb92fb8de82d04f305b4f14fa978003890d7
 # Download kanaka/websockify dated 2016-10-10 commit cb1508fa495bea4b333173705772c1997559ae4b
 # Download kanaka/websockify dated 2015-06-02 commit 558a6439f14b0d85a31145541745e25c255d576b
-ENV NOVNC_SHA="9223e8f2d1c207fb74cb4b8cc243e59d84f9e2f6" \
-    WEBSOCKIFY_SHA="cb1508fa495bea4b333173705772c1997559ae4b"
+ENV NOVNC_SHA="463c39e4af98ec4106b87bbea17e1605aa4c6180" \
+    WEBSOCKIFY_SHA="71d55fcaa8fff045048b08d3502a19cfeefec19e"
 RUN  wget -nv -O noVNC.zip \
-       "https://github.com/novnc/noVNC/archive/${NOVNC_SHA}.zip" \
+       "https://github.com/novnc/noVNC/zipball/${NOVNC_SHA}.zip" \
   && unzip -x noVNC.zip \
   && mv noVNC-${NOVNC_SHA} noVNC \
   && rm noVNC.zip \
   && wget -nv -O websockify.zip \
-      "https://github.com/kanaka/websockify/archive/${WEBSOCKIFY_SHA}.zip" \
+      "https://github.com/novnc/websockify/zipball/${WEBSOCKIFY_SHA}.zip" \
   && unzip -x websockify.zip \
   && rm websockify.zip \
   && mv websockify-${WEBSOCKIFY_SHA} ./noVNC/utils/websockify
