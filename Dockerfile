@@ -177,7 +177,7 @@ RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-
   && ln -s "selenium-server-4.4.0.jar" \
            "selenium-server-standalone-${SEL_VER}.jar" \
   && ln -s "selenium-server-4.4.0.jar" \
-           "selenium-server-standalone-4.4.0.jar"
+           "selenium-server-standalone-4.jar"
 
 # TODO: Enable this again when Selenium 4.0 is released
 #RUN echo $SEL_VER
