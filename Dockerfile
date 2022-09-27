@@ -173,7 +173,11 @@ RUN echo "${UBUNTU_FLAVOR}" > UBUNTU_FLAVOR \
 ARG SEL_DIRECTORY="4.4.0"
 ENV SEL_VER="4.4.0"
 
-RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar"
+RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar" \
+  && ln -s "selenium-server-4.4.0.jar" \
+           "selenium-server-standalone-${SEL_VER}.jar" \
+  && ln -s "selenium-server-4.4.0.jar" \
+           "selenium-server-standalone-4.4.0.jar"
 
 # TODO: Enable this again when Selenium 4.0 is released
 #RUN echo $SEL_VER
