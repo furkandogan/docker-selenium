@@ -8,7 +8,7 @@ ARG UBUNTU_FLAVOR=focal
 ARG UBUNTU_DATE=20220531
 #== Ubuntu xenial is 16.04, i.e. FROM ubuntu:16.04
 # Find latest images at https://hub.docker.com/r/library/ubuntu/
-FROM selenium/standalone-docker:4.4.0-20220831
+FROM selenium/base:latest
 
 #== An ARG declared before a FROM is outside of a build stage,
 # so it can’t be used in any instruction after a FROM. To use
@@ -118,7 +118,7 @@ RUN apt -qqy update \
 # Full list at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #  e.g. "US/Pacific" for Los Angeles, California, USA
 # e.g. ENV TZ "US/Pacific"
-ENV TZ="Europe/Berlin"
+ENV TZ="Europe/Istanbul"
 # Apply TimeZone
 RUN echo "Setting time zone to '${TZ}'" \
   && echo "${TZ}" > /etc/timezone \
