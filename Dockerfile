@@ -177,8 +177,7 @@ ENV SEL_VER="4.4.0"
 # Selenium & relaxing permissions for OpenShift and other non-sudo environments
 #==========
 RUN  sudo mkdir -p /opt/selenium \
-     && chmod -R 777 /opt/selenium \
-     && wget --no-verbose https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar \
+     && sudo wget --no-verbose https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar \
     -O /opt/selenium/selenium-server.jar
 
 LABEL selenium_version "${SEL_VER}"
