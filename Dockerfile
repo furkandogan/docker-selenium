@@ -8,7 +8,7 @@ ARG UBUNTU_FLAVOR=focal
 ARG UBUNTU_DATE=20220531
 #== Ubuntu xenial is 16.04, i.e. FROM ubuntu:16.04
 # Find latest images at https://hub.docker.com/r/library/ubuntu/
-FROM ubuntu:${UBUNTU_FLAVOR}-${UBUNTU_DATE}
+FROM selenium/standalone-docker:4.4.0-20220831
 
 #== An ARG declared before a FROM is outside of a build stage,
 # so it can’t be used in any instruction after a FROM. To use
@@ -172,20 +172,6 @@ RUN echo "${UBUNTU_FLAVOR}" > UBUNTU_FLAVOR \
 #=================
 ARG SEL_DIRECTORY="4.4.0"
 ENV SEL_VER="4.4.0"
-
-RUN wget -nv "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar" \
-  && ln -s "selenium-server-4.4.0.jar" \
-           "selenium-server-standalone-${SEL_VER}.jar" \
-  && ln -s "selenium-server-4.4.0.jar" \
-           "selenium-server-standalone-4.jar"
-
-# TODO: Enable this again when Selenium 4.0 is released
-#RUN echo $SEL_VER
-#RUN  export SELBASE="https://selenium-release.storage.googleapis.com" \
-#  && export SELPATH="${SEL_DIRECTORY}/selenium-server-${SEL_VER}.jar" \
-#  && wget -nv ${SELBASE}/${SELPATH} \
-#  && ln -s "selenium-server-${SEL_VER}.jar" \
-#           "selenium-server.4.4.0.jar"
 
 LABEL selenium_version "${SEL_VER}"
 
