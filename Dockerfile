@@ -8,7 +8,7 @@ ARG UBUNTU_FLAVOR=focal
 ARG UBUNTU_DATE=20220531
 #== Ubuntu xenial is 16.04, i.e. FROM ubuntu:16.04
 # Find latest images at https://hub.docker.com/r/library/ubuntu/
-FROM selenium/base:latest
+FROM ubuntu:${UBUNTU_FLAVOR}-${UBUNTU_DATE}
 
 #== An ARG declared before a FROM is outside of a build stage,
 # so it can’t be used in any instruction after a FROM. To use
@@ -27,6 +27,69 @@ LABEL maintainer "Furkan Dogan <dgnfrkn@gmail.com>"
 # No interactive frontend during docker build
 ENV DEBIAN_FRONTEND=noninteractive \
     DEBCONF_NONINTERACTIVE_SEEN=true
+
+#========================
+# Miscellaneous packages
+#========================
+# libltdl7
+#   allows to run docker alongside docker
+# netcat-openbsd
+#   inlcues `nc` an arbitrary TCP and UDP connections and listens
+# pwgen
+#   generates random, meaningless but pronounceable passwords
+# bc
+#   An arbitrary precision calculator language
+# unzip
+#   uncompress zip files
+# bzip2
+#   uncompress bzip files
+# apt-utils
+#   commandline utilities related to package management with APT
+# net-tools
+#   arp, hostname, ifconfig, netstat, route, plipconfig, iptunnel
+# jq
+#   jq is like sed for JSON data, you can use it to slice and filter and map
+# sudo
+#   sudo binary
+# psmisc
+#   fuser – identifies what processes are using files.
+#   killall – kills a process by its name, similar to a pkill Unices.
+#   pstree – Shows currently running processes in a tree format.
+#   peekfd – Peek at file descriptors of running processes.
+# iproute2
+#   to use `ip` command
+# iputils-ping
+#   ping, ping6 - send ICMP ECHO_REQUEST to network hosts
+# dbus-x11
+#   is needed to avoid http://askubuntu.com/q/237893/134645
+# wget
+#   The non-interactive network downloader
+# curl
+#   transfer URL data using various Internet protocols
+RUN apt -qqy update \
+  && apt -qqy install \
+    libltdl7 \
+    netcat-openbsd \
+    pwgen \
+    bc \
+    unzip \
+    bzip2 \
+    apt-utils \
+    net-tools \
+    jq \
+    sudo \
+    psmisc \
+    iproute2 \
+    iputils-ping \
+    dbus-x11 \
+    wget \
+    curl \
+    pulseaudio \
+    socat \
+    alsa-utils \
+  && apt -qyy autoremove \
+  && rm -rf /var/lib/apt/lists/* \
+  && apt -qyy clean
 
 #==============================
 # Locale and encoding settings
@@ -109,6 +172,12 @@ RUN echo "${UBUNTU_FLAVOR}" > UBUNTU_FLAVOR \
 #=================
 ARG SEL_DIRECTORY="4.4.0"
 ENV SEL_VER="4.4.0"
+
+#==========
+# Selenium & relaxing permissions for OpenShift and other non-sudo environments
+#==========
+RUN  wget --no-verbose https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-server-4.4.0.jar \
+    -O /opt/selenium/selenium-server.jar
 
 LABEL selenium_version "${SEL_VER}"
 
